@@ -1,0 +1,104 @@
+{
+  "version": "1.0.0",
+  "shot_id": "ep01.sc01.sh04",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "aspect_ratio": "16:9"
+  },
+  "camera": {
+    "shot_size": "近景",
+    "movement": "急推",
+    "lens_mm": 85
+  },
+  "layout_policy": {
+    "keyed_by": "shot_size",
+    "shot_size": "近景",
+    "scale": 0.86,
+    "cx": 0.5,
+    "cy": 0.5,
+    "scale_ramp": {
+      "start": 0.88,
+      "end": 1.12
+    }
+  },
+  "layers": {
+    "background": null,
+    "characters": [
+      {
+        "role": "character",
+        "asset_id": "char_lin",
+        "ref_tag": "@char_lin",
+        "image": "projects/_verify2/ref_sheet/char/00/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png",
+        "placement": {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 0.86,
+          "z": 1,
+          "scale_ramp": {
+            "start": 0.88,
+            "end": 1.12
+          }
+        },
+        "locked": true
+      },
+      {
+        "role": "character",
+        "asset_id": "villain_hidden",
+        "ref_tag": "@villain_hidden",
+        "image": "projects/_verify2/ref_sheet/char/02/2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a.png",
+        "placement": {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 0.86,
+          "z": 2,
+          "scale_ramp": {
+            "start": 0.88,
+            "end": 1.12
+          }
+        },
+        "locked": true
+      }
+    ]
+  },
+  "nine_grid": {
+    "convention": "9宫格 (rule-of-thirds, micro-drama)",
+    "grid": [
+      3,
+      3
+    ],
+    "thirds_x": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "thirds_y": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "subject_anchor": {
+      "x": 0.6667,
+      "y": 0.6667
+    },
+    "subject_cell": 4,
+    "intersections": [
+      {
+        "x": 0.3333,
+        "y": 0.3333
+      },
+      {
+        "x": 0.6667,
+        "y": 0.3333
+      },
+      {
+        "x": 0.3333,
+        "y": 0.6667
+      },
+      {
+        "x": 0.6667,
+        "y": 0.6667
+      }
+    ]
+  },
+  "keyframe_still": "projects/_verify2/storyboard/ep01/sc01/shot_04.keyframe.png",
+  "is_i2v_seed": true
+}

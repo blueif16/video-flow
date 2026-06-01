@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "project_dir": "/Users/tk/Desktop/video-flow/projects/demo_run",
+  "inputs": [
+    {
+      "shot_id": "ep01.sc01.sh01",
+      "clip": "projects/demo_run/artifacts/ep01.sc01.sh01/0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98.mp4",
+      "dialogue": "",
+      "planned_duration_s": 4,
+      "probed_duration_s": 4.0
+    },
+    {
+      "shot_id": "ep01.sc01.sh02",
+      "clip": "projects/demo_run/artifacts/ep01.sc01.sh02/58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08.mp4",
+      "dialogue": "我回来了。",
+      "planned_duration_s": 3,
+      "probed_duration_s": 4.0
+    }
+  ],
+  "narration_standin": "/Users/tk/Desktop/video-flow/assets/sample/voice.wav",
+  "output": {
+    "final": "/Users/tk/Desktop/video-flow/projects/demo_run/render/final.mp4",
+    "probe": {
+      "duration_s": 8.0,
+      "has_video": true,
+      "has_audio": true,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "cues": "/Users/tk/Desktop/video-flow/projects/demo_run/render/script-cues.json",
+  "render_gate": {
+    "pass": true,
+    "checks": {
+      "has_video": true,
+      "has_audio": true,
+      "duration_within_tol": true
+    },
+    "out_duration_s": 8.0,
+    "expected_duration_s": 8.0,
+    "tolerance_s": 0.25,
+    "delta_s": 0.0
+  },
+  "handoff": {
+    "sequence": [
+      "cue-plan-author",
+      "tts-voice-direction",
+      "asr-cue-aligner",
+      "hyperframes/remotion composer",
+      "machine render-gate"
+    ],
+    "steps": [
+      {
+        "skill": "cue-plan-author",
+        "consumes": "projects/demo_run/render/script-cues.json",
+        "produces": "refined script-cues.json (per-cue TTS rows)",
+        "note": "the CuePlan we emit is its canonical input"
+      },
+      {
+        "skill": "tts-voice-direction",
+        "consumes": "projects/demo_run/render/script-cues.json",
+        "produces": "voice block (voice id, prompt template, clip budget) + narration WAV",
+        "note": "Chinese narration; one voice for the series"
+      },
+      {
+        "skill": "asr-cue-aligner",
+        "consumes": "narration WAV from tts-voice-direction",
+        "produces": "per-cue startFrame/endFrame written back onto script-cues.json",
+        "note": "Chinese ASR → Volcano first; sherpa-onnx fallback. Re-times cues to real speech."
+      },
+      {
+        "skill": "hyperframes/remotion composer",
+        "consumes": [
+          "projects/demo_run/render/script-cues.json",
+          {
+            "clips": [
+              {
+                "shot_id": "ep01.sc01.sh01",
+                "clip": "projects/demo_run/artifacts/ep01.sc01.sh01/0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98.mp4"
+              },
+              {
+                "shot_id": "ep01.sc01.sh02",
+                "clip": "projects/demo_run/artifacts/ep01.sc01.sh02/58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08.mp4"
+              }
+            ]
+          }
+        ],
+        "produces": "final composition (captions synced to aligned cues, never format=srt)",
+        "note": "replaces this V1 ffmpeg floor with the richer composer"
+      },
+      {
+        "skill": "machine render-gate",
+        "consumes": "projects/demo_run/render/final.mp4",
+        "produces": "ffprobe-truth gate verdict",
+        "note": "same gate this V1 already runs; re-asserts streams + duration"
+      }
+    ]
+  },
+  "caption_method": "macOS AppKit (JXA) → transparent PNG overlay (NOT format=srt)",
+  "fps": 25
+}

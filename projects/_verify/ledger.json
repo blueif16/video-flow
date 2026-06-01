@@ -1,0 +1,767 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "id": "_verify",
+    "title": "被逐少年归来复仇 (_verify)",
+    "genre": "manju",
+    "default_style_id": "国漫暗黑",
+    "knobs": {
+      "题材": "都市玄幻",
+      "集数N": 1,
+      "时长": 60,
+      "主爽点类型": "身份碾压",
+      "style_id": "国漫暗黑"
+    }
+  },
+  "styles": [
+    {
+      "id": "国漫暗黑",
+      "descriptor": "Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture.",
+      "palette": [
+        "#0a0a12",
+        "#1b1b2e",
+        "#7a1f2b",
+        "#c8a14a",
+        "#e8e8f0"
+      ],
+      "film_vocabulary": [
+        "low-key lighting",
+        "rim light",
+        "dutch angle",
+        "slow push-in",
+        "volumetric haze"
+      ],
+      "negative_floor": [
+        "lowres",
+        "blurry",
+        "extra fingers",
+        "deformed hands",
+        "watermark",
+        "text artifacts",
+        "western cartoon style"
+      ]
+    }
+  ],
+  "bible": {
+    "characters": [
+      {
+        "id": "char_lin",
+        "kind": "character",
+        "plan": {
+          "descriptor": "林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.",
+          "ai_draw_keywords": [
+            "young man",
+            "long black hair",
+            "silver-grey eyes",
+            "dark hanfu robe",
+            "single sword",
+            "scar over left brow"
+          ],
+          "固定特征词": [
+            "银灰色眼睛",
+            "左眉伤疤",
+            "黑色长发束起",
+            "黑色暗纹长袍"
+          ],
+          "禁止变化项": [
+            "发型不可变",
+            "眼睛颜色不可变",
+            "伤疤位置不可变",
+            "服装主色不可变"
+          ],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [
+            "projects/_verify/ref_sheet/char/00/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png"
+          ],
+          "ref_status": "locked",
+          "ref_tag": "@char_lin",
+          "seed": 2717328767,
+          "locked_seed": 2717328767,
+          "attempts": [
+            {
+              "attempt_id": "61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c",
+              "ts": "2026-06-01T07:15:49.130591+00:00",
+              "seed": 2717328767,
+              "model": "mock",
+              "prompt": "林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name. | young man、long black hair、silver-grey eyes、dark hanfu robe、single sword、scar over left brow | 固定特征：银灰色眼睛、左眉伤疤、黑色长发束起、黑色暗纹长袍 | 场景锚定（scene_throne）：断裂石柱、月光从破顶射入、裂开的石座、冷蓝色调 | Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | low-key lighting、rim light、dutch angle、slow push-in、volumetric haze | 避免：lowres、blurry、extra fingers、deformed hands、watermark、text artifacts、western cartoon style",
+              "artifact_path": "projects/_verify/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png",
+              "thumb_path": "projects/_verify/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.thumb.png",
+              "verdict": {
+                "node_id": "char_lin",
+                "modality": "image",
+                "attempt": 1,
+                "drift": false,
+                "evidence": {
+                  "reason": "mock-pass"
+                },
+                "score": 0.84,
+                "pass": true,
+                "failure_mode": "pass",
+                "fix_hint": ""
+              },
+              "lesson_ref": null
+            }
+          ],
+          "current_attempt_id": "61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c",
+          "current_artifact": {
+            "attempt_id": "61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c",
+            "path": "projects/_verify/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png",
+            "thumb_path": "projects/_verify/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.thumb.png"
+          },
+          "final_verdict": {
+            "node_id": "char_lin",
+            "modality": "image",
+            "attempt": 1,
+            "drift": false,
+            "evidence": {
+              "reason": "mock-pass"
+            },
+            "score": 0.84,
+            "pass": true,
+            "failure_mode": "pass",
+            "fix_hint": ""
+          }
+        }
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene_throne",
+        "kind": "scene",
+        "plan": {
+          "descriptor": "废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.",
+          "ai_draw_keywords": [
+            "ruined hall",
+            "broken stone pillars",
+            "moonlight shafts",
+            "cracked throne",
+            "drifting dust",
+            "cold blue ambient"
+          ],
+          "固定特征词": [
+            "断裂石柱",
+            "月光从破顶射入",
+            "裂开的石座",
+            "冷蓝色调"
+          ],
+          "禁止变化项": [
+            "大殿布局不可变",
+            "光源方向不可变",
+            "色调不可变"
+          ],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [
+            "projects/_verify/ref_sheet/scene/00/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.png"
+          ],
+          "ref_status": "locked",
+          "ref_tag": "@scene_throne",
+          "seed": 3844668218,
+          "locked_seed": 3844668218,
+          "attempts": [
+            {
+              "attempt_id": "c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2",
+              "ts": "2026-06-01T07:15:49.178318+00:00",
+              "seed": 3844668218,
+              "model": "mock",
+              "prompt": "废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof. | ruined hall、broken stone pillars、moonlight shafts、cracked throne、drifting dust、cold blue ambient | 固定特征：断裂石柱、月光从破顶射入、裂开的石座、冷蓝色调 | 角色锚定（char_lin）：银灰色眼睛、左眉伤疤、黑色长发束起、黑色暗纹长袍 | Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | low-key lighting、rim light、dutch angle、slow push-in、volumetric haze | 避免：lowres、blurry、extra fingers、deformed hands、watermark、text artifacts、western cartoon style",
+              "artifact_path": "projects/_verify/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.png",
+              "thumb_path": "projects/_verify/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.thumb.png",
+              "verdict": {
+                "node_id": "scene_throne",
+                "modality": "image",
+                "attempt": 1,
+                "drift": false,
+                "evidence": {
+                  "reason": "mock-pass"
+                },
+                "score": 0.84,
+                "pass": true,
+                "failure_mode": "pass",
+                "fix_hint": ""
+              },
+              "lesson_ref": null
+            }
+          ],
+          "current_attempt_id": "c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2",
+          "current_artifact": {
+            "attempt_id": "c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2",
+            "path": "projects/_verify/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.png",
+            "thumb_path": "projects/_verify/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.thumb.png"
+          },
+          "final_verdict": {
+            "node_id": "scene_throne",
+            "modality": "image",
+            "attempt": 1,
+            "drift": false,
+            "evidence": {
+              "reason": "mock-pass"
+            },
+            "score": 0.84,
+            "pass": true,
+            "failure_mode": "pass",
+            "fix_hint": ""
+          }
+        }
+      }
+    ],
+    "props": [],
+    "villains": [
+      {
+        "id": "villain_minor",
+        "kind": "villain",
+        "plan": {
+          "descriptor": "周三爷 — 门中管事，仗势欺人的小人物。",
+          "ai_draw_keywords": [
+            "middle-aged man",
+            "greasy smile",
+            "brown robe",
+            "fat fingers"
+          ],
+          "固定特征词": [
+            "油腻笑容",
+            "褐色管事袍"
+          ],
+          "禁止变化项": [
+            "体型不可变"
+          ],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [
+            "projects/_verify/ref_sheet/char/01/37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923.png"
+          ],
+          "ref_status": "locked",
+          "ref_tag": "@villain_minor",
+          "seed": 3425913653,
+          "locked_seed": 3425913653,
+          "attempts": [
+            {
+              "attempt_id": "37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923",
+              "ts": "2026-06-01T07:15:49.226449+00:00",
+              "seed": 3425913653,
+              "model": "mock",
+              "prompt": "周三爷 — 门中管事，仗势欺人的小人物。 | middle-aged man、greasy smile、brown robe、fat fingers | 固定特征：油腻笑容、褐色管事袍 | 场景锚定（scene_throne）：断裂石柱、月光从破顶射入、裂开的石座、冷蓝色调 | Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | low-key lighting、rim light、dutch angle、slow push-in、volumetric haze | 避免：lowres、blurry、extra fingers、deformed hands、watermark、text artifacts、western cartoon style",
+              "artifact_path": "projects/_verify/artifacts/villain_minor/37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923.png",
+              "thumb_path": "projects/_verify/artifacts/villain_minor/37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923.thumb.png",
+              "verdict": {
+                "node_id": "villain_minor",
+                "modality": "image",
+                "attempt": 1,
+                "drift": false,
+                "evidence": {
+                  "reason": "mock-pass"
+                },
+                "score": 0.969,
+                "pass": true,
+                "failure_mode": "pass",
+                "fix_hint": ""
+              },
+              "lesson_ref": null
+            }
+          ],
+          "current_attempt_id": "37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923",
+          "current_artifact": {
+            "attempt_id": "37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923",
+            "path": "projects/_verify/artifacts/villain_minor/37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923.png",
+            "thumb_path": "projects/_verify/artifacts/villain_minor/37f2736dda26e0193b33563de177155b80543f72dcfd55ba1c5231a0ace86923.thumb.png"
+          },
+          "final_verdict": {
+            "node_id": "villain_minor",
+            "modality": "image",
+            "attempt": 1,
+            "drift": false,
+            "evidence": {
+              "reason": "mock-pass"
+            },
+            "score": 0.969,
+            "pass": true,
+            "failure_mode": "pass",
+            "fix_hint": ""
+          }
+        }
+      },
+      {
+        "id": "villain_hidden",
+        "kind": "villain",
+        "plan": {
+          "descriptor": "执棋者 — 幕后真凶，所有棋局的执棋之人。",
+          "ai_draw_keywords": [
+            "hooded figure",
+            "pale ringed hand",
+            "jade chess piece",
+            "shadowed face"
+          ],
+          "固定特征词": [
+            "苍白戴戒之手",
+            "玉色棋子"
+          ],
+          "禁止变化项": [
+            "持棋之手不可变",
+            "棋子不可变"
+          ],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [
+            "projects/_verify/ref_sheet/char/02/2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a.png"
+          ],
+          "ref_status": "locked",
+          "ref_tag": "@villain_hidden",
+          "seed": 1406916099,
+          "locked_seed": 1406916099,
+          "attempts": [
+            {
+              "attempt_id": "2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a",
+              "ts": "2026-06-01T07:15:49.275107+00:00",
+              "seed": 1406916099,
+              "model": "mock",
+              "prompt": "执棋者 — 幕后真凶，所有棋局的执棋之人。 | hooded figure、pale ringed hand、jade chess piece、shadowed face | 固定特征：苍白戴戒之手、玉色棋子 | 场景锚定（scene_throne）：断裂石柱、月光从破顶射入、裂开的石座、冷蓝色调 | Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | low-key lighting、rim light、dutch angle、slow push-in、volumetric haze | 避免：lowres、blurry、extra fingers、deformed hands、watermark、text artifacts、western cartoon style",
+              "artifact_path": "projects/_verify/artifacts/villain_hidden/2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a.png",
+              "thumb_path": "projects/_verify/artifacts/villain_hidden/2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a.thumb.png",
+              "verdict": {
+                "node_id": "villain_hidden",
+                "modality": "image",
+                "attempt": 1,
+                "drift": false,
+                "evidence": {
+                  "reason": "mock-pass"
+                },
+                "score": 0.968,
+                "pass": true,
+                "failure_mode": "pass",
+                "fix_hint": ""
+              },
+              "lesson_ref": null
+            }
+          ],
+          "current_attempt_id": "2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a",
+          "current_artifact": {
+            "attempt_id": "2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a",
+            "path": "projects/_verify/artifacts/villain_hidden/2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a.png",
+            "thumb_path": "projects/_verify/artifacts/villain_hidden/2c02267f9b8bfbdd8594d537cddff034cf580d2dce5a65641f649965413c047a.thumb.png"
+          },
+          "final_verdict": {
+            "node_id": "villain_hidden",
+            "modality": "image",
+            "attempt": 1,
+            "drift": false,
+            "evidence": {
+              "reason": "mock-pass"
+            },
+            "score": 0.968,
+            "pass": true,
+            "failure_mode": "pass",
+            "fix_hint": ""
+          }
+        }
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "id": "ep01",
+      "title": "执棋者",
+      "hook": "执棋者当众嗤笑林夜是个无名之辈，挥手将他逐出门外。",
+      "scenes": [
+        {
+          "id": "ep01.sc01",
+          "title": "大殿对峙",
+          "shots": [
+            {
+              "id": "ep01.sc01.sh01",
+              "deps": [
+                "char_lin",
+                "scene_throne"
+              ],
+              "plan": {
+                "intent": "冷开场[身份反差]：前30秒立冲突，确立林夜的处境与气场，不用旁白交代。",
+                "dialogue": "",
+                "camera": {
+                  "shot_size": "全景",
+                  "movement": "缓慢推进",
+                  "lens_mm": 35
+                },
+                "action": "众人将林夜当作扫地的杂役呼来喝去，他却无声拭净了那柄旧剑。",
+                "ref_ids": [
+                  "char_lin",
+                  "scene_throne"
+                ],
+                "style_id": "国漫暗黑",
+                "duration_s": 12.0,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "approved",
+                "attempts": [
+                  {
+                    "attempt_id": "29b030047fc0dbd8e53322166f68d37f77f90375693f22101daaca1da7925960",
+                    "ts": "2026-06-01T07:15:49.357003+00:00",
+                    "seed": 1250537373,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @scene_throne (废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 断裂石柱, 月光从破顶射入, 裂开的石座, 冷蓝色调\nreferences: @char_lin @scene_throne\n\nAction:\n  [00:00-00:06] 众人将林夜当作扫地的杂役呼来喝去，\n  [00:06-00:12] 他却无声拭净了那柄旧剑。\n\nCamera: 景别/运镜: 全景, 缓慢推进, 35mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 大殿布局不可变, 光源方向不可变, 色调不可变",
+                    "artifact_path": "projects/_verify/artifacts/ep01.sc01.sh01/29b030047fc0dbd8e53322166f68d37f77f90375693f22101daaca1da7925960.mp4",
+                    "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh01/29b030047fc0dbd8e53322166f68d37f77f90375693f22101daaca1da7925960.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh01",
+                      "modality": "video",
+                      "attempt": 1,
+                      "drift": true,
+                      "evidence": {
+                        "reason": "seeded-drift",
+                        "ref_role_map": {
+                          "[Image1]": "character:char_lin",
+                          "<char_lin>": {
+                            "kind": "character",
+                            "禁止变化项": [
+                              "发型不可变",
+                              "眼睛颜色不可变",
+                              "伤疤位置不可变",
+                              "服装主色不可变"
+                            ]
+                          },
+                          "[Image2]": "scene:scene_throne",
+                          "<scene_throne>": {
+                            "kind": "scene",
+                            "禁止变化项": [
+                              "大殿布局不可变",
+                              "光源方向不可变",
+                              "色调不可变"
+                            ]
+                          }
+                        }
+                      },
+                      "score": 0.41,
+                      "pass": false,
+                      "failure_mode": "drift",
+                      "fix_hint": "reference drifted from bible (禁止变化项 violated); regen the reference, then re-judge."
+                    },
+                    "lesson_ref": "L1"
+                  },
+                  {
+                    "attempt_id": "8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6",
+                    "ts": "2026-06-01T07:15:50.349404+00:00",
+                    "seed": 1462357894,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @scene_throne (废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 断裂石柱, 月光从破顶射入, 裂开的石座, 冷蓝色调\nreferences: @char_lin @scene_throne\n\nAction:\n  [00:00-00:06] 众人将林夜当作扫地的杂役呼来喝去，\n  [00:06-00:12] 他却无声拭净了那柄旧剑。\n\nCamera: 景别/运镜: 全景, 缓慢推进, 35mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 大殿布局不可变, 光源方向不可变, 色调不可变",
+                    "artifact_path": "projects/_verify/artifacts/ep01.sc01.sh01/8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6.mp4",
+                    "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh01/8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh01",
+                      "modality": "video",
+                      "attempt": 2,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "mock-pass"
+                      },
+                      "score": 0.944,
+                      "pass": true,
+                      "failure_mode": "pass",
+                      "fix_hint": ""
+                    },
+                    "lesson_ref": null
+                  }
+                ],
+                "current_attempt_id": "8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6",
+                "current_artifact": {
+                  "attempt_id": "8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6",
+                  "path": "projects/_verify/artifacts/ep01.sc01.sh01/8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6.mp4",
+                  "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh01/8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6.thumb.png"
+                },
+                "final_verdict": {
+                  "node_id": "ep01.sc01.sh01",
+                  "modality": "video",
+                  "attempt": 2,
+                  "drift": false,
+                  "evidence": {
+                    "reason": "mock-pass"
+                  },
+                  "score": 0.944,
+                  "pass": true,
+                  "failure_mode": "pass",
+                  "fix_hint": ""
+                },
+                "cost_usd": 0
+              }
+            },
+            {
+              "id": "ep01.sc01.sh02",
+              "deps": [
+                "char_lin",
+                "scene_throne",
+                "villain_hidden",
+                "ep01.sc01.sh01"
+              ],
+              "plan": {
+                "intent": "压抑升级：执棋者进一步施压，将林夜逼入绝境，为释放蓄力。",
+                "dialogue": "",
+                "camera": {
+                  "shot_size": "中近景",
+                  "movement": "横向跟移",
+                  "lens_mm": 50
+                },
+                "action": "执棋者当众嗤笑林夜是个无名之辈，挥手将他逐出门外。",
+                "ref_ids": [
+                  "char_lin",
+                  "villain_hidden"
+                ],
+                "style_id": "国漫暗黑",
+                "duration_s": 36.0,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "approved",
+                "attempts": [
+                  {
+                    "attempt_id": "aa148061028946fe5b49b4bb2a842bd94b5bb1a73f4e811792bc07e99f5e9dd6",
+                    "ts": "2026-06-01T07:15:51.155273+00:00",
+                    "seed": 1137967990,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @villain_hidden (执棋者 — 幕后真凶，所有棋局的执棋之人。)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 苍白戴戒之手, 玉色棋子\nreferences: @char_lin @villain_hidden\n\nAction:\n  [00:00-00:18] 执棋者当众嗤笑林夜是个无名之辈，\n  [00:18-00:36] 挥手将他逐出门外。\n\nCamera: 景别/运镜: 中近景, 横向跟移, 50mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 持棋之手不可变, 棋子不可变",
+                    "artifact_path": "projects/_verify/artifacts/ep01.sc01.sh02/aa148061028946fe5b49b4bb2a842bd94b5bb1a73f4e811792bc07e99f5e9dd6.mp4",
+                    "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh02/aa148061028946fe5b49b4bb2a842bd94b5bb1a73f4e811792bc07e99f5e9dd6.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh02",
+                      "modality": "video",
+                      "attempt": 1,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "seeded-fail",
+                        "axis": "off-prompt"
+                      },
+                      "score": 0.38,
+                      "pass": false,
+                      "failure_mode": "off-prompt",
+                      "fix_hint": "off-prompt: tighten the prompt and re-roll a new seed; inject 固定特征词 and honor the negative floor."
+                    },
+                    "lesson_ref": "L2"
+                  },
+                  {
+                    "attempt_id": "be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be",
+                    "ts": "2026-06-01T07:15:51.899765+00:00",
+                    "seed": 16197983,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @villain_hidden (执棋者 — 幕后真凶，所有棋局的执棋之人。)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 苍白戴戒之手, 玉色棋子\nreferences: @char_lin @villain_hidden\n\nAction:\n  [00:00-00:18] 执棋者当众嗤笑林夜是个无名之辈，\n  [00:18-00:36] 挥手将他逐出门外。\n\nCamera: 景别/运镜: 中近景, 横向跟移, 50mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 持棋之手不可变, 棋子不可变",
+                    "artifact_path": "projects/_verify/artifacts/ep01.sc01.sh02/be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be.mp4",
+                    "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh02/be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh02",
+                      "modality": "video",
+                      "attempt": 2,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "mock-pass"
+                      },
+                      "score": 0.9,
+                      "pass": true,
+                      "failure_mode": "pass",
+                      "fix_hint": ""
+                    },
+                    "lesson_ref": null
+                  }
+                ],
+                "current_attempt_id": "be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be",
+                "current_artifact": {
+                  "attempt_id": "be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be",
+                  "path": "projects/_verify/artifacts/ep01.sc01.sh02/be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be.mp4",
+                  "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh02/be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be.thumb.png"
+                },
+                "final_verdict": {
+                  "node_id": "ep01.sc01.sh02",
+                  "modality": "video",
+                  "attempt": 2,
+                  "drift": false,
+                  "evidence": {
+                    "reason": "mock-pass"
+                  },
+                  "score": 0.9,
+                  "pass": true,
+                  "failure_mode": "pass",
+                  "fix_hint": ""
+                },
+                "cost_usd": 0
+              }
+            },
+            {
+              "id": "ep01.sc01.sh03",
+              "deps": [
+                "char_lin",
+                "villain_hidden",
+                "scene_throne",
+                "ep01.sc01.sh02"
+              ],
+              "plan": {
+                "intent": "本集爆点[身份碾压, 强度0.9]：林夜完成释放，回收前置压抑。",
+                "dialogue": "你也配？",
+                "camera": {
+                  "shot_size": "近景",
+                  "movement": "急推",
+                  "lens_mm": 85
+                },
+                "action": "林夜亮出本门信物，执棋者脸色骤变，当众单膝跪地。",
+                "ref_ids": [
+                  "char_lin",
+                  "villain_hidden"
+                ],
+                "style_id": "国漫暗黑",
+                "duration_s": 12.0,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "approved",
+                "attempts": [
+                  {
+                    "attempt_id": "cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b",
+                    "ts": "2026-06-01T07:15:52.669720+00:00",
+                    "seed": 1607134778,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @villain_hidden (执棋者 — 幕后真凶，所有棋局的执棋之人。)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 苍白戴戒之手, 玉色棋子\nreferences: @char_lin @villain_hidden\n\nAction:\n  [00:00-00:04] 林夜亮出本门信物，\n  [00:04-00:08] 执棋者脸色骤变，\n  [00:08-00:12] 当众单膝跪地。\n\nCamera: 景别/运镜: 近景, 急推, 85mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nDialogue: \"你也配？\"\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 持棋之手不可变, 棋子不可变",
+                    "artifact_path": "projects/_verify/artifacts/ep01.sc01.sh03/cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b.mp4",
+                    "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh03/cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh03",
+                      "modality": "video",
+                      "attempt": 1,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "mock-pass"
+                      },
+                      "score": 0.9,
+                      "pass": true,
+                      "failure_mode": "pass",
+                      "fix_hint": ""
+                    },
+                    "lesson_ref": null
+                  }
+                ],
+                "current_attempt_id": "cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b",
+                "current_artifact": {
+                  "attempt_id": "cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b",
+                  "path": "projects/_verify/artifacts/ep01.sc01.sh03/cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b.mp4",
+                  "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh03/cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b.thumb.png"
+                },
+                "final_verdict": {
+                  "node_id": "ep01.sc01.sh03",
+                  "modality": "video",
+                  "attempt": 1,
+                  "drift": false,
+                  "evidence": {
+                    "reason": "mock-pass"
+                  },
+                  "score": 0.9,
+                  "pass": true,
+                  "failure_mode": "pass",
+                  "fix_hint": ""
+                },
+                "cost_usd": 0
+              }
+            },
+            {
+              "id": "ep01.sc01.sh04",
+              "deps": [
+                "char_lin",
+                "villain_hidden",
+                "scene_throne",
+                "ep01.sc01.sh03"
+              ],
+              "plan": {
+                "intent": "终章揭面：隐藏反派现身，回收全部伏笔，最高强度释放收束全篇。",
+                "dialogue": "执棋的人，该下来了。",
+                "camera": {
+                  "shot_size": "近景",
+                  "movement": "急推",
+                  "lens_mm": 85
+                },
+                "action": "兜帽落下，那只苍白戴戒的手将玉色棋子按在棋盘正中，幕后真凶终于显形。",
+                "ref_ids": [
+                  "char_lin",
+                  "villain_hidden"
+                ],
+                "style_id": "国漫暗黑",
+                "duration_s": 12.0,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "approved",
+                "attempts": [
+                  {
+                    "attempt_id": "64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89",
+                    "ts": "2026-06-01T07:15:53.478209+00:00",
+                    "seed": 961085877,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @villain_hidden (执棋者 — 幕后真凶，所有棋局的执棋之人。)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 苍白戴戒之手, 玉色棋子\nreferences: @char_lin @villain_hidden\n\nAction:\n  [00:00-00:04] 兜帽落下，\n  [00:04-00:08] 那只苍白戴戒的手将玉色棋子按在棋盘正中，\n  [00:08-00:12] 幕后真凶终于显形。\n\nCamera: 景别/运镜: 近景, 急推, 85mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nDialogue: \"执棋的人，该下来了。\"\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 持棋之手不可变, 棋子不可变",
+                    "artifact_path": "projects/_verify/artifacts/ep01.sc01.sh04/64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89.mp4",
+                    "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh04/64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh04",
+                      "modality": "video",
+                      "attempt": 1,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "mock-pass"
+                      },
+                      "score": 0.9,
+                      "pass": true,
+                      "failure_mode": "pass",
+                      "fix_hint": ""
+                    },
+                    "lesson_ref": null
+                  }
+                ],
+                "current_attempt_id": "64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89",
+                "current_artifact": {
+                  "attempt_id": "64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89",
+                  "path": "projects/_verify/artifacts/ep01.sc01.sh04/64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89.mp4",
+                  "thumb_path": "projects/_verify/artifacts/ep01.sc01.sh04/64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89.thumb.png"
+                },
+                "final_verdict": {
+                  "node_id": "ep01.sc01.sh04",
+                  "modality": "video",
+                  "attempt": 1,
+                  "drift": false,
+                  "evidence": {
+                    "reason": "mock-pass"
+                  },
+                  "score": 0.9,
+                  "pass": true,
+                  "failure_mode": "pass",
+                  "fix_hint": ""
+                },
+                "cost_usd": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": "L1",
+      "scope": {
+        "category": "drift",
+        "model": "mock",
+        "style_id": "国漫暗黑"
+      },
+      "symptom": "reference drifted from bible (禁止变化项 violated); regen the reference, then re-judge.",
+      "fix": "reference drifted from bible (禁止变化项 violated); regen the reference, then re-judge.",
+      "prompt_delta": "",
+      "hit_count": 0
+    },
+    {
+      "lesson_id": "L2",
+      "scope": {
+        "category": "off-prompt",
+        "model": "mock",
+        "style_id": "国漫暗黑"
+      },
+      "symptom": "off-prompt: tighten the prompt and re-roll a new seed; inject 固定特征词 and honor the negative floor.",
+      "fix": "off-prompt: tighten the prompt and re-roll a new seed; inject 固定特征词 and honor the negative floor.",
+      "prompt_delta": "",
+      "hit_count": 0
+    }
+  ]
+}

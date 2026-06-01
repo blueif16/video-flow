@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "fps": 25,
+  "pacing": {
+    "chars_per_sec_min": 3.2,
+    "chars_per_sec_max": 5.5
+  },
+  "overlap_guard_s": 0.01,
+  "cues": [
+    {
+      "cue_id": "cue01",
+      "shot_id": "ep01.sc01.sh02",
+      "text": "我回来了。",
+      "startSec": 4.0,
+      "endSec": 8.0,
+      "startFrame": 100,
+      "endFrame": 200,
+      "chars": 5,
+      "chars_per_sec": 1.25,
+      "pacing_ok": false,
+      "pacing_warning": "1.25 chars/sec out of [3.2,5.5] for 5 chars over 4.00s"
+    }
+  ],
+  "warnings": [
+    {
+      "shot_id": "ep01.sc01.sh02",
+      "warning": "1.25 chars/sec out of [3.2,5.5] for 5 chars over 4.00s"
+    }
+  ]
+}

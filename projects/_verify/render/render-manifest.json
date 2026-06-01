@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "project_dir": "/Users/tk/Desktop/video-flow/projects/_verify",
+  "inputs": [
+    {
+      "shot_id": "ep01.sc01.sh01",
+      "clip": "projects/_verify/artifacts/ep01.sc01.sh01/8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6.mp4",
+      "dialogue": "",
+      "planned_duration_s": 12.0,
+      "probed_duration_s": 4.0
+    },
+    {
+      "shot_id": "ep01.sc01.sh02",
+      "clip": "projects/_verify/artifacts/ep01.sc01.sh02/be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be.mp4",
+      "dialogue": "",
+      "planned_duration_s": 36.0,
+      "probed_duration_s": 4.0
+    },
+    {
+      "shot_id": "ep01.sc01.sh03",
+      "clip": "projects/_verify/artifacts/ep01.sc01.sh03/cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b.mp4",
+      "dialogue": "你也配？",
+      "planned_duration_s": 12.0,
+      "probed_duration_s": 4.0
+    },
+    {
+      "shot_id": "ep01.sc01.sh04",
+      "clip": "projects/_verify/artifacts/ep01.sc01.sh04/64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89.mp4",
+      "dialogue": "执棋的人，该下来了。",
+      "planned_duration_s": 12.0,
+      "probed_duration_s": 4.0
+    }
+  ],
+  "narration_standin": "/Users/tk/Desktop/video-flow/assets/sample/voice.wav",
+  "output": {
+    "final": "/Users/tk/Desktop/video-flow/projects/_verify/render/final.mp4",
+    "probe": {
+      "duration_s": 16.0,
+      "has_video": true,
+      "has_audio": true,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "cues": "/Users/tk/Desktop/video-flow/projects/_verify/render/script-cues.json",
+  "render_gate": {
+    "pass": true,
+    "checks": {
+      "has_video": true,
+      "has_audio": true,
+      "duration_within_tol": true
+    },
+    "out_duration_s": 16.0,
+    "expected_duration_s": 16.0,
+    "tolerance_s": 0.25,
+    "delta_s": 0.0
+  },
+  "handoff": {
+    "sequence": [
+      "cue-plan-author",
+      "tts-voice-direction",
+      "asr-cue-aligner",
+      "hyperframes/remotion composer",
+      "machine render-gate"
+    ],
+    "steps": [
+      {
+        "skill": "cue-plan-author",
+        "consumes": "projects/_verify/render/script-cues.json",
+        "produces": "refined script-cues.json (per-cue TTS rows)",
+        "note": "the CuePlan we emit is its canonical input"
+      },
+      {
+        "skill": "tts-voice-direction",
+        "consumes": "projects/_verify/render/script-cues.json",
+        "produces": "voice block (voice id, prompt template, clip budget) + narration WAV",
+        "note": "Chinese narration; one voice for the series"
+      },
+      {
+        "skill": "asr-cue-aligner",
+        "consumes": "narration WAV from tts-voice-direction",
+        "produces": "per-cue startFrame/endFrame written back onto script-cues.json",
+        "note": "Chinese ASR → Volcano first; sherpa-onnx fallback. Re-times cues to real speech."
+      },
+      {
+        "skill": "hyperframes/remotion composer",
+        "consumes": [
+          "projects/_verify/render/script-cues.json",
+          {
+            "clips": [
+              {
+                "shot_id": "ep01.sc01.sh01",
+                "clip": "projects/_verify/artifacts/ep01.sc01.sh01/8d942f6ff136c73a7afab5f94aee4a915d40d9f96387986bc4a2dbf310b80ae6.mp4"
+              },
+              {
+                "shot_id": "ep01.sc01.sh02",
+                "clip": "projects/_verify/artifacts/ep01.sc01.sh02/be34259f02fd8253b87d7891e9acaf6694f388644375388c488a0868c24bf0be.mp4"
+              },
+              {
+                "shot_id": "ep01.sc01.sh03",
+                "clip": "projects/_verify/artifacts/ep01.sc01.sh03/cf2b7c80aba3c22c8863a0fa1e53139451377c4f0f249d38fef721369d21cc1b.mp4"
+              },
+              {
+                "shot_id": "ep01.sc01.sh04",
+                "clip": "projects/_verify/artifacts/ep01.sc01.sh04/64c41b5da6dbb69064d5dd707ca5e75e1f0384864a054bc27ac47c2b7eb9bb89.mp4"
+              }
+            ]
+          }
+        ],
+        "produces": "final composition (captions synced to aligned cues, never format=srt)",
+        "note": "replaces this V1 ffmpeg floor with the richer composer"
+      },
+      {
+        "skill": "machine render-gate",
+        "consumes": "projects/_verify/render/final.mp4",
+        "produces": "ffprobe-truth gate verdict",
+        "note": "same gate this V1 already runs; re-asserts streams + duration"
+      }
+    ]
+  },
+  "caption_method": "macOS AppKit (JXA) → transparent PNG overlay (NOT format=srt)",
+  "fps": 25
+}

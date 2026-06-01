@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "fps": 25,
+  "pacing": {
+    "chars_per_sec_min": 3.2,
+    "chars_per_sec_max": 5.5
+  },
+  "overlap_guard_s": 0.01,
+  "cues": [
+    {
+      "cue_id": "cue01",
+      "shot_id": "ep01.sc01.sh03",
+      "text": "你也配？",
+      "startSec": 8.0,
+      "endSec": 12.0,
+      "startFrame": 200,
+      "endFrame": 300,
+      "chars": 4,
+      "chars_per_sec": 1.0,
+      "pacing_ok": false,
+      "pacing_warning": "1.00 chars/sec out of [3.2,5.5] for 4 chars over 4.00s"
+    },
+    {
+      "cue_id": "cue02",
+      "shot_id": "ep01.sc01.sh04",
+      "text": "执棋的人，该下来了。",
+      "startSec": 12.01,
+      "endSec": 16.0,
+      "startFrame": 300,
+      "endFrame": 400,
+      "chars": 10,
+      "chars_per_sec": 2.506,
+      "pacing_ok": false,
+      "pacing_warning": "2.51 chars/sec out of [3.2,5.5] for 10 chars over 3.99s"
+    }
+  ],
+  "warnings": [
+    {
+      "shot_id": "ep01.sc01.sh03",
+      "warning": "1.00 chars/sec out of [3.2,5.5] for 4 chars over 4.00s"
+    },
+    {
+      "shot_id": "ep01.sc01.sh04",
+      "warning": "2.51 chars/sec out of [3.2,5.5] for 10 chars over 3.99s"
+    }
+  ]
+}

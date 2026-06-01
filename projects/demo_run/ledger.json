@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "id": "demo",
+    "title": "暗夜行者 (demo)",
+    "genre": "manju",
+    "default_style_id": "国漫暗黑",
+    "knobs": {
+      "题材": "都市玄幻",
+      "集数N": 1,
+      "时长": 60,
+      "主爽点类型": "身份碾压",
+      "style_id": "国漫暗黑"
+    }
+  },
+  "styles": [
+    {
+      "id": "国漫暗黑",
+      "descriptor": "Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture.",
+      "palette": [
+        "#0a0a12",
+        "#1b1b2e",
+        "#7a1f2b",
+        "#c8a14a",
+        "#e8e8f0"
+      ],
+      "film_vocabulary": [
+        "low-key lighting",
+        "rim light",
+        "dutch angle",
+        "slow push-in",
+        "volumetric haze"
+      ],
+      "negative_floor": [
+        "lowres",
+        "blurry",
+        "extra fingers",
+        "deformed hands",
+        "watermark",
+        "text artifacts",
+        "western cartoon style"
+      ]
+    }
+  ],
+  "bible": {
+    "characters": [
+      {
+        "id": "char_lin",
+        "kind": "character",
+        "plan": {
+          "descriptor": "林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.",
+          "ai_draw_keywords": [
+            "young man",
+            "long black hair",
+            "silver-grey eyes",
+            "dark hanfu robe",
+            "single sword",
+            "scar over left brow"
+          ],
+          "固定特征词": [
+            "银灰色眼睛",
+            "左眉伤疤",
+            "黑色长发束起",
+            "黑色暗纹长袍"
+          ],
+          "禁止变化项": [
+            "发型不可变",
+            "眼睛颜色不可变",
+            "伤疤位置不可变",
+            "服装主色不可变"
+          ],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [
+            "projects/demo_run/ref_sheet/char/00/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png"
+          ],
+          "ref_status": "locked",
+          "ref_tag": "@char_lin",
+          "seed": 2717328767,
+          "locked_seed": 2717328767,
+          "attempts": [
+            {
+              "attempt_id": "61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c",
+              "ts": "2026-06-01T07:12:32.622494+00:00",
+              "seed": 2717328767,
+              "model": "mock",
+              "prompt": "林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name. | young man、long black hair、silver-grey eyes、dark hanfu robe、single sword、scar over left brow | 固定特征：银灰色眼睛、左眉伤疤、黑色长发束起、黑色暗纹长袍 | 场景锚定（scene_throne）：断裂石柱、月光从破顶射入、裂开的石座、冷蓝色调 | Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | low-key lighting、rim light、dutch angle、slow push-in、volumetric haze | 避免：lowres、blurry、extra fingers、deformed hands、watermark、text artifacts、western cartoon style",
+              "artifact_path": "projects/demo_run/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png",
+              "thumb_path": "projects/demo_run/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.thumb.png",
+              "verdict": {
+                "node_id": "char_lin",
+                "modality": "image",
+                "attempt": 1,
+                "drift": false,
+                "evidence": {
+                  "reason": "mock-pass"
+                },
+                "score": 0.84,
+                "pass": true,
+                "failure_mode": "pass",
+                "fix_hint": ""
+              },
+              "lesson_ref": null
+            }
+          ],
+          "current_attempt_id": "61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c",
+          "current_artifact": {
+            "attempt_id": "61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c",
+            "path": "projects/demo_run/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.png",
+            "thumb_path": "projects/demo_run/artifacts/char_lin/61ab22630683f19d39fe9b7c70dce0b8d058c3de5d3a9bc1d7c2bbb61534477c.thumb.png"
+          },
+          "final_verdict": {
+            "node_id": "char_lin",
+            "modality": "image",
+            "attempt": 1,
+            "drift": false,
+            "evidence": {
+              "reason": "mock-pass"
+            },
+            "score": 0.84,
+            "pass": true,
+            "failure_mode": "pass",
+            "fix_hint": ""
+          }
+        }
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene_throne",
+        "kind": "scene",
+        "plan": {
+          "descriptor": "废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.",
+          "ai_draw_keywords": [
+            "ruined hall",
+            "broken stone pillars",
+            "moonlight shafts",
+            "cracked throne",
+            "drifting dust",
+            "cold blue ambient"
+          ],
+          "固定特征词": [
+            "断裂石柱",
+            "月光从破顶射入",
+            "裂开的石座",
+            "冷蓝色调"
+          ],
+          "禁止变化项": [
+            "大殿布局不可变",
+            "光源方向不可变",
+            "色调不可变"
+          ],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [
+            "projects/demo_run/ref_sheet/scene/00/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.png"
+          ],
+          "ref_status": "locked",
+          "ref_tag": "@scene_throne",
+          "seed": 3844668218,
+          "locked_seed": 3844668218,
+          "attempts": [
+            {
+              "attempt_id": "c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2",
+              "ts": "2026-06-01T07:12:32.666830+00:00",
+              "seed": 3844668218,
+              "model": "mock",
+              "prompt": "废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof. | ruined hall、broken stone pillars、moonlight shafts、cracked throne、drifting dust、cold blue ambient | 固定特征：断裂石柱、月光从破顶射入、裂开的石座、冷蓝色调 | 角色锚定（char_lin）：银灰色眼睛、左眉伤疤、黑色长发束起、黑色暗纹长袍 | Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | low-key lighting、rim light、dutch angle、slow push-in、volumetric haze | 避免：lowres、blurry、extra fingers、deformed hands、watermark、text artifacts、western cartoon style",
+              "artifact_path": "projects/demo_run/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.png",
+              "thumb_path": "projects/demo_run/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.thumb.png",
+              "verdict": {
+                "node_id": "scene_throne",
+                "modality": "image",
+                "attempt": 1,
+                "drift": false,
+                "evidence": {
+                  "reason": "mock-pass"
+                },
+                "score": 0.84,
+                "pass": true,
+                "failure_mode": "pass",
+                "fix_hint": ""
+              },
+              "lesson_ref": null
+            }
+          ],
+          "current_attempt_id": "c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2",
+          "current_artifact": {
+            "attempt_id": "c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2",
+            "path": "projects/demo_run/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.png",
+            "thumb_path": "projects/demo_run/artifacts/scene_throne/c8036b727e70e04dbc40d9839f2db21824436f556a1e498918f9c3f9c24ab2f2.thumb.png"
+          },
+          "final_verdict": {
+            "node_id": "scene_throne",
+            "modality": "image",
+            "attempt": 1,
+            "drift": false,
+            "evidence": {
+              "reason": "mock-pass"
+            },
+            "score": 0.84,
+            "pass": true,
+            "failure_mode": "pass",
+            "fix_hint": ""
+          }
+        }
+      }
+    ],
+    "props": [],
+    "villains": []
+  },
+  "episodes": [
+    {
+      "id": "ep01",
+      "title": "归来",
+      "hook": "被逐三年的少年，踏着满门的血誓归来。",
+      "scenes": [
+        {
+          "id": "ep01.sc01",
+          "title": "大殿对峙",
+          "shots": [
+            {
+              "id": "ep01.sc01.sh01",
+              "deps": [
+                "char_lin",
+                "scene_throne"
+              ],
+              "plan": {
+                "intent": "建立林夜独自步入废弃大殿的孤绝气场，确立身份与场景。",
+                "dialogue": "",
+                "camera": {
+                  "shot_size": "全景",
+                  "movement": "缓慢推进",
+                  "lens_mm": 35
+                },
+                "action": "林夜逆光走入大殿，月光勾出轮廓，脚步扬起尘埃，他在裂开的石座前停步。",
+                "ref_ids": [
+                  "char_lin",
+                  "scene_throne"
+                ],
+                "style_id": "国漫暗黑",
+                "duration_s": 4,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "approved",
+                "attempts": [
+                  {
+                    "attempt_id": "957aecac92e0a22d5affc231151dc627c5dca31a59bf9db29fc7efd9811ea409",
+                    "ts": "2026-06-01T07:12:32.730655+00:00",
+                    "seed": 1250537373,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @scene_throne (废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 断裂石柱, 月光从破顶射入, 裂开的石座, 冷蓝色调\nreferences: @char_lin @scene_throne\n\nAction:\n  [00:00-00:01] 林夜逆光走入大殿，\n  [00:01-00:03] 月光勾出轮廓，\n  [00:03-00:04] 脚步扬起尘埃，\n\nCamera: 景别/运镜: 全景, 缓慢推进, 35mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 大殿布局不可变, 光源方向不可变, 色调不可变",
+                    "artifact_path": "projects/demo_run/artifacts/ep01.sc01.sh01/957aecac92e0a22d5affc231151dc627c5dca31a59bf9db29fc7efd9811ea409.mp4",
+                    "thumb_path": "projects/demo_run/artifacts/ep01.sc01.sh01/957aecac92e0a22d5affc231151dc627c5dca31a59bf9db29fc7efd9811ea409.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh01",
+                      "modality": "video",
+                      "attempt": 1,
+                      "drift": true,
+                      "evidence": {
+                        "reason": "seeded-drift",
+                        "ref_role_map": {
+                          "[Image1]": "character:char_lin",
+                          "<char_lin>": {
+                            "kind": "character",
+                            "禁止变化项": [
+                              "发型不可变",
+                              "眼睛颜色不可变",
+                              "伤疤位置不可变",
+                              "服装主色不可变"
+                            ]
+                          },
+                          "[Image2]": "scene:scene_throne",
+                          "<scene_throne>": {
+                            "kind": "scene",
+                            "禁止变化项": [
+                              "大殿布局不可变",
+                              "光源方向不可变",
+                              "色调不可变"
+                            ]
+                          }
+                        }
+                      },
+                      "score": 0.41,
+                      "pass": false,
+                      "failure_mode": "drift",
+                      "fix_hint": "reference drifted from bible (禁止变化项 violated); regen the reference, then re-judge."
+                    },
+                    "lesson_ref": "L1"
+                  },
+                  {
+                    "attempt_id": "0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98",
+                    "ts": "2026-06-01T07:12:33.649850+00:00",
+                    "seed": 1462357894,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.); @scene_throne (废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍, 断裂石柱, 月光从破顶射入, 裂开的石座, 冷蓝色调\nreferences: @char_lin @scene_throne\n\nAction:\n  [00:00-00:01] 林夜逆光走入大殿，\n  [00:01-00:03] 月光勾出轮廓，\n  [00:03-00:04] 脚步扬起尘埃，\n\nCamera: 景别/运镜: 全景, 缓慢推进, 35mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变, 大殿布局不可变, 光源方向不可变, 色调不可变",
+                    "artifact_path": "projects/demo_run/artifacts/ep01.sc01.sh01/0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98.mp4",
+                    "thumb_path": "projects/demo_run/artifacts/ep01.sc01.sh01/0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh01",
+                      "modality": "video",
+                      "attempt": 2,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "mock-pass"
+                      },
+                      "score": 0.986,
+                      "pass": true,
+                      "failure_mode": "pass",
+                      "fix_hint": ""
+                    },
+                    "lesson_ref": null
+                  }
+                ],
+                "current_attempt_id": "0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98",
+                "current_artifact": {
+                  "attempt_id": "0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98",
+                  "path": "projects/demo_run/artifacts/ep01.sc01.sh01/0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98.mp4",
+                  "thumb_path": "projects/demo_run/artifacts/ep01.sc01.sh01/0ed4f471342b1602ea20f04afa7d08f4d649d29f033db3065c75574b662f3f98.thumb.png"
+                },
+                "final_verdict": {
+                  "node_id": "ep01.sc01.sh01",
+                  "modality": "video",
+                  "attempt": 2,
+                  "drift": false,
+                  "evidence": {
+                    "reason": "mock-pass"
+                  },
+                  "score": 0.986,
+                  "pass": true,
+                  "failure_mode": "pass",
+                  "fix_hint": ""
+                },
+                "cost_usd": 0
+              }
+            },
+            {
+              "id": "ep01.sc01.sh02",
+              "deps": [
+                "char_lin",
+                "scene_throne",
+                "ep01.sc01.sh01"
+              ],
+              "plan": {
+                "intent": "近景特写收束情绪，银灰双眼映出月光，亮出身份的冷意。",
+                "dialogue": "我回来了。",
+                "camera": {
+                  "shot_size": "近景",
+                  "movement": "固定",
+                  "lens_mm": 85
+                },
+                "action": "镜头切到林夜面部近景，银灰色眼睛微抬，手缓缓按上剑柄，眉间伤疤在月光下清晰。",
+                "ref_ids": [
+                  "char_lin"
+                ],
+                "style_id": "国漫暗黑",
+                "duration_s": 3,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "approved",
+                "attempts": [
+                  {
+                    "attempt_id": "894f33a53701c285c76cc5e38521fd5ce9fd63bf0eb8ad0413bc96743cbc6314",
+                    "ts": "2026-06-01T07:12:34.588705+00:00",
+                    "seed": 1137967990,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍\nreferences: @char_lin\n\nAction:\n  [00:00-00:01] 镜头切到林夜面部近景，\n  [00:01-00:02] 银灰色眼睛微抬，\n  [00:02-00:03] 手缓缓按上剑柄，\n\nCamera: 景别/运镜: 近景, 固定, 85mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nDialogue: \"我回来了。\"\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变",
+                    "artifact_path": "projects/demo_run/artifacts/ep01.sc01.sh02/894f33a53701c285c76cc5e38521fd5ce9fd63bf0eb8ad0413bc96743cbc6314.mp4",
+                    "thumb_path": "projects/demo_run/artifacts/ep01.sc01.sh02/894f33a53701c285c76cc5e38521fd5ce9fd63bf0eb8ad0413bc96743cbc6314.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh02",
+                      "modality": "video",
+                      "attempt": 1,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "seeded-fail",
+                        "axis": "off-prompt"
+                      },
+                      "score": 0.38,
+                      "pass": false,
+                      "failure_mode": "off-prompt",
+                      "fix_hint": "off-prompt: tighten the prompt and re-roll a new seed; inject 固定特征词 and honor the negative floor."
+                    },
+                    "lesson_ref": "L2"
+                  },
+                  {
+                    "attempt_id": "58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08",
+                    "ts": "2026-06-01T07:12:35.481308+00:00",
+                    "seed": 16197983,
+                    "model": "mock",
+                    "prompt": "Subject: @char_lin (林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.)\n固定特征词: 银灰色眼睛, 左眉伤疤, 黑色长发束起, 黑色暗纹长袍\nreferences: @char_lin\n\nAction:\n  [00:00-00:01] 镜头切到林夜面部近景，\n  [00:01-00:02] 银灰色眼睛微抬，\n  [00:02-00:03] 手缓缓按上剑柄，\n\nCamera: 景别/运镜: 近景, 固定, 85mm\nStyle: Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture. | film: low-key lighting, rim light, dutch angle, slow push-in, volumetric haze\nDialogue: \"我回来了。\"\nConstraints: avoid: lowres, blurry, extra fingers, deformed hands, watermark, text artifacts, western cartoon style | keep consistent (禁止变化项): 发型不可变, 眼睛颜色不可变, 伤疤位置不可变, 服装主色不可变",
+                    "artifact_path": "projects/demo_run/artifacts/ep01.sc01.sh02/58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08.mp4",
+                    "thumb_path": "projects/demo_run/artifacts/ep01.sc01.sh02/58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08.thumb.png",
+                    "verdict": {
+                      "node_id": "ep01.sc01.sh02",
+                      "modality": "video",
+                      "attempt": 2,
+                      "drift": false,
+                      "evidence": {
+                        "reason": "mock-pass"
+                      },
+                      "score": 0.949,
+                      "pass": true,
+                      "failure_mode": "pass",
+                      "fix_hint": ""
+                    },
+                    "lesson_ref": null
+                  }
+                ],
+                "current_attempt_id": "58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08",
+                "current_artifact": {
+                  "attempt_id": "58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08",
+                  "path": "projects/demo_run/artifacts/ep01.sc01.sh02/58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08.mp4",
+                  "thumb_path": "projects/demo_run/artifacts/ep01.sc01.sh02/58a875ff44a9fc78b92b58fb248f20d635bbbc4862ca7d1727387a4fd9687c08.thumb.png"
+                },
+                "final_verdict": {
+                  "node_id": "ep01.sc01.sh02",
+                  "modality": "video",
+                  "attempt": 2,
+                  "drift": false,
+                  "evidence": {
+                    "reason": "mock-pass"
+                  },
+                  "score": 0.949,
+                  "pass": true,
+                  "failure_mode": "pass",
+                  "fix_hint": ""
+                },
+                "cost_usd": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": "L1",
+      "scope": {
+        "category": "drift",
+        "model": "mock",
+        "style_id": "国漫暗黑"
+      },
+      "symptom": "reference drifted from bible (禁止变化项 violated); regen the reference, then re-judge.",
+      "fix": "reference drifted from bible (禁止变化项 violated); regen the reference, then re-judge.",
+      "prompt_delta": "",
+      "hit_count": 0
+    },
+    {
+      "lesson_id": "L2",
+      "scope": {
+        "category": "off-prompt",
+        "model": "mock",
+        "style_id": "国漫暗黑"
+      },
+      "symptom": "off-prompt: tighten the prompt and re-roll a new seed; inject 固定特征词 and honor the negative floor.",
+      "fix": "off-prompt: tighten the prompt and re-roll a new seed; inject 固定特征词 and honor the negative floor.",
+      "prompt_delta": "",
+      "hit_count": 0
+    }
+  ]
+}

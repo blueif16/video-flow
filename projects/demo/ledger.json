@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "id": "demo",
+    "title": "暗夜行者 (demo)",
+    "genre": "manju",
+    "default_style_id": "国漫暗黑",
+    "knobs": {
+      "题材": "都市玄幻",
+      "集数N": 1,
+      "时长": 60,
+      "主爽点类型": "身份碾压",
+      "style_id": "国漫暗黑"
+    }
+  },
+  "styles": [
+    {
+      "id": "国漫暗黑",
+      "descriptor": "Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture.",
+      "palette": ["#0a0a12", "#1b1b2e", "#7a1f2b", "#c8a14a", "#e8e8f0"],
+      "film_vocabulary": ["low-key lighting", "rim light", "dutch angle", "slow push-in", "volumetric haze"],
+      "negative_floor": ["lowres", "blurry", "extra fingers", "deformed hands", "watermark", "text artifacts", "western cartoon style"]
+    }
+  ],
+  "bible": {
+    "characters": [
+      {
+        "id": "char_lin",
+        "kind": "character",
+        "plan": {
+          "descriptor": "林夜 — exiled young swordsman, cold-eyed, returns to reclaim his name.",
+          "ai_draw_keywords": ["young man", "long black hair", "silver-grey eyes", "dark hanfu robe", "single sword", "scar over left brow"],
+          "固定特征词": ["银灰色眼睛", "左眉伤疤", "黑色长发束起", "黑色暗纹长袍"],
+          "禁止变化项": ["发型不可变", "眼睛颜色不可变", "伤疤位置不可变", "服装主色不可变"],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [],
+          "ref_status": "none",
+          "ref_tag": "@char_lin",
+          "seed": null,
+          "locked_seed": null,
+          "attempts": [],
+          "current_attempt_id": null,
+          "current_artifact": null,
+          "final_verdict": null
+        }
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene_throne",
+        "kind": "scene",
+        "plan": {
+          "descriptor": "废弃宗门大殿 — abandoned sect throne hall, shattered pillars, moonlight through broken roof.",
+          "ai_draw_keywords": ["ruined hall", "broken stone pillars", "moonlight shafts", "cracked throne", "drifting dust", "cold blue ambient"],
+          "固定特征词": ["断裂石柱", "月光从破顶射入", "裂开的石座", "冷蓝色调"],
+          "禁止变化项": ["大殿布局不可变", "光源方向不可变", "色调不可变"],
+          "style_id": "国漫暗黑"
+        },
+        "run": {
+          "ref_image_paths": [],
+          "ref_status": "none",
+          "ref_tag": "@scene_throne",
+          "seed": null,
+          "locked_seed": null,
+          "attempts": [],
+          "current_attempt_id": null,
+          "current_artifact": null,
+          "final_verdict": null
+        }
+      }
+    ],
+    "props": [],
+    "villains": []
+  },
+  "episodes": [
+    {
+      "id": "ep01",
+      "title": "归来",
+      "hook": "被逐三年的少年，踏着满门的血誓归来。",
+      "scenes": [
+        {
+          "id": "ep01.sc01",
+          "title": "大殿对峙",
+          "shots": [
+            {
+              "id": "ep01.sc01.sh01",
+              "deps": ["char_lin", "scene_throne"],
+              "plan": {
+                "intent": "建立林夜独自步入废弃大殿的孤绝气场，确立身份与场景。",
+                "dialogue": "",
+                "camera": { "shot_size": "全景", "movement": "缓慢推进", "lens_mm": 35 },
+                "action": "林夜逆光走入大殿，月光勾出轮廓，脚步扬起尘埃，他在裂开的石座前停步。",
+                "ref_ids": ["char_lin", "scene_throne"],
+                "style_id": "国漫暗黑",
+                "duration_s": 4,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "pending",
+                "attempts": [],
+                "current_attempt_id": null,
+                "current_artifact": null,
+                "final_verdict": null,
+                "cost_usd": 0
+              }
+            },
+            {
+              "id": "ep01.sc01.sh02",
+              "deps": ["char_lin", "scene_throne", "ep01.sc01.sh01"],
+              "plan": {
+                "intent": "近景特写收束情绪，银灰双眼映出月光，亮出身份的冷意。",
+                "dialogue": "我回来了。",
+                "camera": { "shot_size": "近景", "movement": "固定", "lens_mm": 85 },
+                "action": "镜头切到林夜面部近景，银灰色眼睛微抬，手缓缓按上剑柄，眉间伤疤在月光下清晰。",
+                "ref_ids": ["char_lin"],
+                "style_id": "国漫暗黑",
+                "duration_s": 3,
+                "showtell_pass": true
+              },
+              "run": {
+                "status": "pending",
+                "attempts": [],
+                "current_attempt_id": null,
+                "current_artifact": null,
+                "final_verdict": null,
+                "cost_usd": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}
