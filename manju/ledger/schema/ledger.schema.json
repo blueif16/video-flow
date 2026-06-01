@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manju.dev/schema/ledger.schema.json",
+  "title": "manju ledger",
+  "description": "Layer 0 — the one data contract. project → styles[] → bible{characters,scenes,props,villains} → episodes[] → scenes[] → shots[], plus top-level lessons[]. plan = BRAIN-owned, run = OVERLORD-owned, no field overlap.",
+  "type": "object",
+  "required": ["project", "styles", "bible", "episodes", "lessons"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string" },
+    "project": { "$ref": "#/$defs/project" },
+    "styles": { "type": "array", "items": { "$ref": "#/$defs/style" }, "minItems": 1 },
+    "bible": { "$ref": "#/$defs/bible" },
+    "episodes": { "type": "array", "items": { "$ref": "#/$defs/episode" } },
+    "lessons": { "type": "array", "items": { "$ref": "#/$defs/lesson" } }
+  },
+
+  "$defs": {
+    "status": {
+      "description": "canonical shot/scene/episode status enum",
+      "enum": [
+        "pending", "generating", "landed", "judging",
+        "approved", "needs_regen", "paused", "blocked_on_ref", "skipped"
+      ]
+    },
+    "ref_status": {
+      "description": "asset reference lifecycle — locked gates dependent shots",
+      "enum": ["none", "drafting", "judging", "locked", "rejected"]
+    },
+    "failure_mode": {
+      "enum": ["drift", "anatomy", "off-prompt", "artifact", "motion-incoherent", "continuity", "text-garbled", "pass"]
+    },
+
+    "project": {
+      "type": "object",
+      "required": ["id", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "genre": { "type": "string" },
+        "default_style_id": { "type": "string" },
+        "knobs": {
+          "type": "object",
+          "description": "BRAIN input knobs (题材, 集数N, 时长, 主爽点类型, style_id)",
+          "additionalProperties": true
+        }
+      }
+    },
+
+    "style": {
+      "type": "object",
+      "description": "style as a separate axis from story; consumed only by tooling",
+      "required": ["id"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "examples": ["国漫暗黑"] },
+        "descriptor": { "type": "string" },
+        "palette": { "type": "array", "items": { "type": "string" } },
+        "film_vocabulary": { "type": "array", "items": { "type": "string" } },
+        "negative_floor": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "bible": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "characters": { "type": "array", "items": { "$ref": "#/$defs/asset" } },
+        "scenes": { "type": "array", "items": { "$ref": "#/$defs/asset" } },
+        "props": { "type": "array", "items": { "$ref": "#/$defs/asset" } },
+        "villains": { "type": "array", "items": { "$ref": "#/$defs/asset" } }
+      }
+    },
+
+    "asset": {
+      "type": "object",
+      "description": "ASSET node — a bible entry; its ref images are generated+judged like shots.",
+      "required": ["id", "kind", "plan", "run"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "description": "stable id, e.g. char_lin / scene_throne" },
+        "kind": { "enum": ["character", "scene", "prop", "villain"] },
+        "plan": { "$ref": "#/$defs/asset_plan" },
+        "run": { "$ref": "#/$defs/asset_run" }
+      }
+    },
+
+    "asset_plan": {
+      "type": "object",
+      "description": "BRAIN-owned fields. writer == 'brain'.",
+      "required": ["descriptor", "ai_draw_keywords", "固定特征词", "禁止变化项", "style_id"],
+      "additionalProperties": false,
+      "properties": {
+        "descriptor": { "type": "string" },
+        "ai_draw_keywords": { "type": "array", "items": { "type": "string" } },
+        "固定特征词": { "type": "array", "items": { "type": "string" }, "description": "fixed-feature words, injected into every downstream prompt" },
+        "禁止变化项": { "type": "array", "items": { "type": "string" }, "description": "forbidden-change items, exposed as Overlord drift-check inputs" },
+        "style_id": { "type": "string" }
+      }
+    },
+
+    "asset_run": {
+      "type": "object",
+      "description": "OVERLORD/generating-owned fields. writer in {'overlord','generating'}.",
+      "additionalProperties": false,
+      "properties": {
+        "ref_image_paths": { "type": "array", "items": { "type": "string" } },
+        "ref_status": { "$ref": "#/$defs/ref_status" },
+        "ref_tag": { "type": "string", "description": "e.g. @char_lin" },
+        "seed": { "type": ["integer", "null"] },
+        "locked_seed": { "type": ["integer", "null"] },
+        "attempts": { "type": "array", "items": { "$ref": "#/$defs/attempt" } },
+        "current_attempt_id": { "type": ["string", "null"] },
+        "current_artifact": { "$ref": "#/$defs/artifact" },
+        "final_verdict": { "oneOf": [ { "type": "null" }, { "$ref": "#/$defs/verdict" } ] }
+      }
+    },
+
+    "episode": {
+      "type": "object",
+      "required": ["id", "scenes"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "description": "e.g. ep03" },
+        "title": { "type": "string" },
+        "hook": { "type": "string" },
+        "scenes": { "type": "array", "items": { "$ref": "#/$defs/scene" } }
+      }
+    },
+
+    "scene": {
+      "type": "object",
+      "required": ["id", "shots"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "description": "e.g. ep03.sc02" },
+        "title": { "type": "string" },
+        "shots": { "type": "array", "items": { "$ref": "#/$defs/shot" } }
+      }
+    },
+
+    "shot": {
+      "type": "object",
+      "description": "SHOT node — the atomic executable unit.",
+      "required": ["id", "deps", "plan", "run"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "description": "stable path id ep03.sc02.sh05, immutable, never reorder" },
+        "deps": { "type": "array", "items": { "type": "string" }, "description": "asset ids + prev shot id → graph edges" },
+        "plan": { "$ref": "#/$defs/shot_plan" },
+        "run": { "$ref": "#/$defs/shot_run" }
+      }
+    },
+
+    "shot_plan": {
+      "type": "object",
+      "description": "BRAIN-owned fields. writer == 'brain'.",
+      "required": ["intent", "camera", "action", "ref_ids", "style_id", "duration_s"],
+      "additionalProperties": false,
+      "properties": {
+        "intent": { "type": "string" },
+        "dialogue": { "type": "string" },
+        "camera": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "shot_size": { "type": "string", "description": "景别" },
+            "movement": { "type": "string", "description": "运镜" },
+            "lens_mm": { "type": ["number", "null"] }
+          }
+        },
+        "action": { "type": "string" },
+        "ref_ids": { "type": "array", "items": { "type": "string" }, "description": "asset ids referenced by this shot" },
+        "style_id": { "type": "string" },
+        "duration_s": { "type": "number" },
+        "showtell_pass": { "type": "boolean", "description": "SHOW-DON'T-TELL gate result" }
+      }
+    },
+
+    "shot_run": {
+      "type": "object",
+      "description": "OVERLORD/generating-owned fields. writer in {'overlord','generating'}.",
+      "additionalProperties": false,
+      "properties": {
+        "status": { "$ref": "#/$defs/status" },
+        "attempts": { "type": "array", "items": { "$ref": "#/$defs/attempt" } },
+        "current_attempt_id": { "type": ["string", "null"] },
+        "current_artifact": { "$ref": "#/$defs/artifact" },
+        "final_verdict": { "oneOf": [ { "type": "null" }, { "$ref": "#/$defs/verdict" } ] },
+        "cost_usd": { "type": "number" }
+      }
+    },
+
+    "attempt": {
+      "type": "object",
+      "description": "append-only 抽卡 (gacha) history row.",
+      "required": ["attempt_id", "seed", "model"],
+      "additionalProperties": false,
+      "properties": {
+        "attempt_id": { "type": "string", "description": "content-address; artifacts named by this, never overwritten" },
+        "ts": { "type": "string" },
+        "seed": { "type": ["integer", "null"] },
+        "model": { "type": "string" },
+        "prompt": { "type": "string" },
+        "artifact_path": { "type": "string" },
+        "thumb_path": { "type": "string" },
+        "verdict": { "oneOf": [ { "type": "null" }, { "$ref": "#/$defs/verdict" } ] },
+        "lesson_ref": { "type": ["string", "null"] }
+      }
+    },
+
+    "artifact": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "attempt_id": { "type": "string" },
+            "path": { "type": "string" },
+            "thumb_path": { "type": "string" },
+            "kind": { "enum": ["image", "video", "audio"] }
+          }
+        }
+      ]
+    },
+
+    "verdict": {
+      "type": "object",
+      "description": "JUDGE output. swappable vision model; V1 ships a deterministic MOCK judge.",
+      "required": ["node_id", "modality", "attempt", "score", "pass", "failure_mode"],
+      "additionalProperties": false,
+      "properties": {
+        "node_id": { "type": "string" },
+        "modality": { "enum": ["image", "video"] },
+        "attempt": { "type": "integer" },
+        "score": { "type": "number" },
+        "pass": { "type": "boolean" },
+        "failure_mode": { "$ref": "#/$defs/failure_mode" },
+        "fix_hint": { "type": "string" },
+        "drift": { "type": "boolean" },
+        "evidence": { "type": ["string", "object", "array"] }
+      }
+    },
+
+    "lesson": {
+      "type": "object",
+      "description": "in-ledger retrievable lesson; indexed by (category, model). NOT a markdown blob.",
+      "required": ["lesson_id", "scope", "symptom", "fix"],
+      "additionalProperties": false,
+      "properties": {
+        "lesson_id": { "type": "string" },
+        "scope": {
+          "type": "object",
+          "required": ["category", "model"],
+          "additionalProperties": false,
+          "properties": {
+            "category": { "type": "string", "description": "failure_mode / shot_type bucket" },
+            "model": { "type": "string" },
+            "style_id": { "type": "string" },
+            "asset_kind": { "type": "string" }
+          }
+        },
+        "symptom": { "type": "string" },
+        "fix": { "type": "string" },
+        "prompt_delta": { "type": "string" },
+        "hit_count": { "type": "integer", "default": 0 }
+      }
+    }
+  }
+}
