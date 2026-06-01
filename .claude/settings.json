@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -m manju.overlord.on_artifact_landed",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

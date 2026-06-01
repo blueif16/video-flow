@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+projects/*/artifacts/
+projects/_scratch_ref/
+projects/_scratch_gen/
+projects/_scratch_brain/
+projects/_scratch_compose/
+projects/_scratch_ovl/
+projects/_scratch_e2e/
+projects/_scratch_integ/
+projects/_scratch_*/
+projects/*/judge_sheets/
+projects/*/escalations/
+projects/*/_async_jobs.json
+.ledger.*.tmp
