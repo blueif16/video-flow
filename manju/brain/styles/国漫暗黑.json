@@ -1,0 +1,7 @@
+{
+  "id": "国漫暗黑",
+  "descriptor": "Chinese dark-fantasy donghua — high-contrast noir palette, cinematic rim light, ink-wash texture.",
+  "palette": ["#0a0a12", "#1b1b2e", "#7a1f2b", "#c8a14a", "#e8e8f0"],
+  "film_vocabulary": ["low-key lighting", "rim light", "dutch angle", "slow push-in", "volumetric haze"],
+  "negative_floor": ["lowres", "blurry", "extra fingers", "deformed hands", "watermark", "text artifacts", "western cartoon style"]
+}

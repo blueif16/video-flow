@@ -1,0 +1,7 @@
+{
+  "id": "水墨武侠",
+  "descriptor": "Chinese ink-wash wuxia — soft xuan-paper texture, muted earth-and-jade palette, flowing brush silhouettes.",
+  "palette": ["#f4efe6", "#cfc6b0", "#5a6b54", "#3a3a34", "#8a2f24"],
+  "film_vocabulary": ["soft diffuse light", "negative space", "lateral tracking", "rack focus", "drifting mist"],
+  "negative_floor": ["lowres", "blurry", "extra fingers", "deformed hands", "watermark", "text artifacts", "neon colors", "3d render"]
+}
