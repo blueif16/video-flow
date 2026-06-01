@@ -1,0 +1,13 @@
+cooling down ~2min to clear the 429 penalty before testing...
+(eval):6: no matches found: /tmp/t.*.vtt
+=== request pattern: zh.* ===
+[info] 4GsGyfqG3m8: Downloading subtitles: zh-TW, zh-Hans-zh-TW, zh-Hant-zh-TW
+[info] Writing video subtitles to: /tmp/t.zh-TW.vtt
+[info] Writing video subtitles to: /tmp/t.zh-Hans-zh-TW.vtt
+  -> files written: t.zh-TW.vtt 
+=== request pattern: en.* ===
+[info] 4GsGyfqG3m8: Downloading subtitles: en-zh-TW
+[info] Writing video subtitles to: /tmp/t.en-zh-TW.vtt
+ERROR: Unable to download video subtitles for 'en-zh-TW': HTTP Error 429: Too Many Requests
+(eval):9: no matches found: /tmp/t.*.vtt
+  -> files written: 

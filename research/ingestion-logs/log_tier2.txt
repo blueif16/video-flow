@@ -1,0 +1,536 @@
+
+######## [1/8] @flo.motion (n=20, en) ########
+channel  : https://www.youtube.com/@flo.motion
+namespace: yt_flo.motion
+n_videos : 20
+
+enumerating...
+found 20 videos
+
+[1/20] _tjA176DemM  After Effects 3D Masterclass: Substance Materials, 3D Tracking & 
+  - chunks=7 created=7 skipped=0
+
+[2/20] kRVsMeoIC0c  Seedance 2.0: How to Use AI as a Professional VFX Tool
+  - chunks=7 created=7 skipped=0
+
+[3/20] lyWbol7-HoI  Advanced new 3d Features in After Effects Tutorial
+  - chunks=1 created=1 skipped=0
+
+[4/20] 0wYPud7Blt4  KLING 3.0 - my complete Hollywood Workflow Tutorial
+  - chunks=7 created=7 skipped=0
+
+[5/20] JdUR2f0E4b4  AI vs. VFX - let the battle begin (with Kling 3.0)
+  - chunks=1 created=1 skipped=0
+
+[6/20] 59eBqmvGEFo  NEW FEATURES in AFTER EFFECTS: Object Mask, 3D Displacement, Dept
+  - chunks=5 created=5 skipped=0
+
+[7/20] IULdt6zm2wk  VFX & AI Music Video Workflow: AFTER EFFECTS & Higgsfield Tutoria
+  - chunks=7 created=7 skipped=0
+
+[8/20] UUbP-QHOp8A  NEW FEATURES in AFTER EFFECTS 26
+  - chunks=4 created=4 skipped=0
+
+[9/20] JMuwVNB4iGA   Misfits "Forbidden Zone" - Cover
+  - chunks=2 created=2 skipped=0
+
+[10/20] ehV7pk7aoWw  Transform yourself into any character with Kling Motion Control
+  - chunks=1 created=1 skipped=0
+
+[11/20] wSDusuiSk6E  How to create AI Videos with SOUND (free giveaway)
+  - chunks=8 created=8 skipped=0
+
+[12/20] S4czJwZbBB8  The IMPOSSIBLE Shot: 4 Gen AI Tricks to Level Up Your Professiona
+  - chunks=7 created=7 skipped=0
+
+[13/20] jaE2A5Cz_IQ  Can AI generate HOLLYWOOD QUALITY? Firefly Tutorial
+  - chunks=4 created=4 skipped=0
+
+[14/20] 13tDY_1dIK8  28 Prompts Later - an Adobe Firefly Trailer
+  - no English subs, skipping
+
+[15/20] XPvMyfOFsIc  NEW FEATURES in After Effects, Premiere and Photoshop 2026
+  - chunks=5 created=5 skipped=0
+
+[16/20] JZGqZWDSVPg  AI Compositing Tutorial in After Effects (Firefly and Runway)
+  - chunks=5 created=5 skipped=0
+
+[17/20] ii1o6x7cAK4  How to get UNLIMITED AI VIDEO CREDITS + Prompting Tips & Tricks
+  - chunks=6 created=6 skipped=0
+
+[18/20] dv_1f5XVwpM  GET STARTED with AI and VEO 3 ( easy beginner Tutorial With Envat
+  - chunks=4 created=4 skipped=0
+
+[19/20] ZhPVdpEhqkU  Google Veo 3: Create Cinematic AI Videos with Audio
+  - chunks=1 created=1 skipped=0
+
+[20/20] -3IF0X5f59g  Reduce Project and Collect Files in After Effects - TUTORIAL
+  - chunks=3 created=3 skipped=0
+
+DONE  videos=20 no_subs=1 chunks=85 created=85 skipped=0
+
+######## [2/8] @isadoesai (n=20, en) ########
+channel  : https://www.youtube.com/@isadoesai
+namespace: yt_isadoesai
+n_videos : 20
+
+enumerating...
+found 20 videos
+
+[1/20] kXo2_X5Z9Uw  I Created an Army of AI Influencers With Higgsfield Supercomputer
+  - chunks=8 created=8 skipped=0
+
+[2/20] WTHuRRmt1RQ  How to Make Super Long AI Animation Videos (2026)
+  - chunks=8 created=8 skipped=0
+
+[3/20] Vvf8OSdE7yY  How to Make Wojak Animation Videos with AI - Step by Step
+  - chunks=8 created=8 skipped=0
+
+[4/20] a_qUx3YV8QQ  How to Make Explainer Videos With AI (Full Guide)
+  - chunks=11 created=11 skipped=0
+
+[5/20] 7ajVhp8qM3U  How to Make AI Music Videos with Perfect Lip Sync
+  - chunks=6 created=6 skipped=0
+
+[6/20] dOmKYJoRboE  How to Make Long AI Videos with Consistent Characters (2026)
+  - chunks=9 created=9 skipped=0
+
+[7/20] uZKx1-_md68  I Tested GPT Image 2 vs Nano Banana (Honest Results)
+  - chunks=8 created=8 skipped=0
+
+[8/20] 5OhWT7kE5g8  EXACTLY How to Create Fashion Ads with AI
+  - chunks=7 created=7 skipped=0
+
+[9/20] NwxSkZ6veTk  How to Create Viral AI Cartoons in 2026
+  - chunks=8 created=8 skipped=0
+
+[10/20] ZI_cIAqKcKs  How I Make Realistic AI Avatars with Heygen’s Avatar V!
+  - chunks=6 created=6 skipped=0
+
+[11/20] S2F-5iFS9WQ  7 Prompts You Need to Create Better AI Videos (ASAP)
+  - chunks=9 created=9 skipped=0
+
+[12/20] T6WeUhYyVmk  How to Build Your First AI Character - Step by Step
+  - chunks=9 created=9 skipped=0
+
+[13/20] HJs1-R1FDdk  How to Lip Sync AI Videos with 100% Accuracy
+  - chunks=7 created=7 skipped=0
+
+[14/20] a0sP4WDYyJY  The New Way to Make AI Anime Videos in 2026
+  - chunks=8 created=8 skipped=0
+
+[15/20] 9XP-sz0LsLs  How to Actually Make an AI Music Video
+  - chunks=6 created=6 skipped=0
+
+[16/20] ez8gfygg8ho  How to ACTUALLY Use Seedance 2.0 - Full Tutorial
+  - chunks=7 created=7 skipped=0
+
+[17/20] gHRG0usjEnA  Best AI Video Generator in 2026  - NEW Winner is HERE!
+  - chunks=8 created=8 skipped=0
+
+[18/20] dQXt30-IHM4  Seedance 2.0 Just Changed the Way we Make AI Videos
+  - chunks=6 created=6 skipped=0
+
+[19/20] wRFw5ay58xo  How I Create 3D Worlds with AI in 1 Prompt! (AI Worldbuilding)
+  - chunks=7 created=7 skipped=0
+
+[20/20] 9Qm8dZl0dYw  Suno AI vs FREE AI Music Generators: Who Wins?
+  - chunks=8 created=8 skipped=0
+
+DONE  videos=20 no_subs=0 chunks=154 created=154 skipped=0
+
+######## [3/8] @NerdyRodent (n=20, en) ########
+channel  : https://www.youtube.com/@NerdyRodent
+namespace: yt_nerdyrodent
+n_videos : 20
+
+enumerating...
+found 20 videos
+
+[1/20] wy3uUTF9DCo  Microsoft Lens in ComfyUI - Small but Powerful!
+  - chunks=11 created=11 skipped=0
+
+[2/20] X-7COOaRuQc  Make High Quality Music in ComfyUI - Low VRAM!
+  - chunks=10 created=10 skipped=0
+
+[3/20] aZ7DR22o24E  Using HiDream-O1 Natively in ComfyUI
+  - chunks=10 created=10 skipped=0
+
+[4/20] gmnv6CYCQrI  Z-Anime: Finetuned for Anime Styled Images in ComfyUI
+  - chunks=11 created=11 skipped=0
+
+[5/20] zldbJpgUBqc  LTX 2.3 Workflow Powerup - AI Video In-Painting & LoRA fun!
+  - chunks=10 created=10 skipped=0
+
+[6/20] IOJ0jA-9Ccc  LTX 2.3 - Improved AI Videos & Extensions in ComfyUI!
+  - chunks=8 created=8 skipped=0
+
+[7/20] W09xam6Ly4k  ERNIE-Image Turbo Beats Z-Image-Turbo in Benchmarks?!
+  - chunks=9 created=9 skipped=0
+
+[8/20] jYygjz6Gby4  ACE-Step 1.5 XL = Free Music Generation in ComfyUI!
+  - chunks=14 created=14 skipped=0
+
+[9/20] zwQOe8rSqBM  Two Options for Using OmniVoice TTS in ComfyUI
+  - chunks=8 created=8 skipped=0
+
+[10/20] 0gvmND1mJrE  LongCat Image & Image Edit - Native Support now in ComfyUI!
+  - chunks=12 created=12 skipped=0
+
+[11/20] V25GORD4h_U  Best Face Swap Video + New NVFP4 & FP8 Models for LTX2.3 in Comfy
+  - chunks=12 created=12 skipped=0
+
+[12/20] Y-ZLRAhPyLk  Using LTX2.3 Union & Abliterated CLIP in ComfyUI
+  - chunks=10 created=10 skipped=0
+
+[13/20] eFdfNcVIpD0  LTX-2.3 In ComfyUI = AI Video Generation At 0 Credits Per Run
+  - chunks=11 created=11 skipped=0
+
+[14/20] eRutNtJ9MlU  Capybara - A Unified Generation Model in ComfyUI
+  - chunks=11 created=11 skipped=0
+
+[15/20] 6MYxrOStqm4  FireRed Image Edit vs Qwen Image Edit 2511 in ComfyUI
+  - chunks=9 created=9 skipped=0
+
+[16/20] 1OIdS-9rDpc  FreeFuse = Multiple Character LoRAs for Z-Image Turbo, Flux & SDX
+  - chunks=14 created=14 skipped=0
+
+[17/20] EhGt4fbQJMQ  Ace-Step 1.5 - FREE & Open Source Suno / Udio Competitor - Runs L
+  - chunks=11 created=11 skipped=0
+
+[18/20] dAnceJ13HP4  Z-Image Base - locally on your own PC in ComfyUI - great for LoRA
+  - chunks=11 created=11 skipped=0
+
+[19/20] IwATkI5N6hQ  Longer LTX-2 Videos (lower peak VRAM) + Pose & Canny Controls in 
+  - chunks=14 created=14 skipped=0
+
+[20/20] tufeXrzYgrs  LTX-2 Combined Power Workflow in ComfyUI - Even Custom Images & A
+  - chunks=16 created=16 skipped=0
+
+DONE  videos=20 no_subs=0 chunks=222 created=222 skipped=0
+
+######## [4/8] @Aiconomist (n=20, en) ########
+channel  : https://www.youtube.com/@Aiconomist
+namespace: yt_aiconomist
+n_videos : 20
+
+enumerating...
+found 20 videos
+
+[1/20] p03_Wgw9Gm8  New Flux 2 Klein LoRA: AI Image Upscaling Is Getting Crazy
+ERROR: [youtube] p03_Wgw9Gm8: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+  ! yt-dlp failed: ERROR: [youtube] p03_Wgw9Gm8: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+  - no English subs, skipping
+
+[2/20] 9rNNcoP_WhE  The ONLY Way to Combine Multiple AI Influencers in One Photo
+  - chunks=6 created=6 skipped=0
+
+[3/20] xm788ZdsXjI  The ONLY Video You Need to Automate ComfyUI with OpenClaw
+  - chunks=9 created=9 skipped=0
+
+[4/20] JGjcgnVWWgM  ComfyUI Face Consistency Just Got SO Much Better
+  - chunks=6 created=6 skipped=0
+
+[5/20] -wW6Q1uFGxI  Stop Paying for AI Models. Do THIS Instead. (Free Virtual Try-On)
+  - chunks=9 created=9 skipped=0
+
+[6/20] teEychmxy6c  How to Make LONG AI Infuencer Videos in ComfyUI (Perfect Consiste
+  - chunks=8 created=8 skipped=0
+
+[7/20] tSPK7Yv1S58  Qwen 2509 Image Edit BEATS Paid Tools! Complete Virtual Try-On & 
+  - chunks=8 created=8 skipped=0
+
+[8/20] 7L1ElGEZCoA  FREE Character Animation with Wan-Animate! Replace ANY Character 
+  - chunks=7 created=7 skipped=0
+
+[9/20] nrcbs6CzHHA  BEATS Nano Banana! Open-Source Image Editing Revolution with Qwen
+  - chunks=8 created=8 skipped=0
+
+[10/20] NclB_mdLxHk  Create UNLIMITED Talking Videos with InfiniteTalk! (ComfyUI Tutor
+  - chunks=6 created=6 skipped=0
+
+[11/20] byD3esxZziY  The WAN 2.2 Workflow That's Breaking Views - INSANE Image-to-Vide
+  - chunks=6 created=6 skipped=0
+
+[12/20] 8LCQXxDF16U  WAN 2.2 Just BROKE AI Image Generation - Works on LOW VRAM GPUs!
+  - chunks=8 created=8 skipped=0
+
+[13/20] 2zng0kwIjbw  Photoshop Is DEAD - AI Photo Restoration That Actually Works (Com
+  - chunks=6 created=6 skipped=0
+
+[14/20] LPalaxJJY7M  This AI Clothing Swap Trick Will BLOW YOUR MIND - Flux Kontext in
+  - chunks=5 created=5 skipped=0
+
+[15/20] h9IdH8CzE0w  FLUX Kontext Just BROKE Image Editing Forever! (Works on ANY GPU)
+  - chunks=8 created=8 skipped=0
+
+[16/20] 4CUb_M13_h0  This Changes Everything! 4-Step AI Video Generation on ANY GPU - 
+  - chunks=5 created=5 skipped=0
+
+[17/20] _l-k18BUbLk  WAN 2.1 Phantom Just BROKE AI Video Generation (Character Consist
+  - chunks=6 created=6 skipped=0
+
+[18/20] eYACeRJW_SE  Unlock INSANE AI Video with Wan 2.1 vace & ComfyUI!
+  - chunks=5 created=5 skipped=0
+
+[19/20] 6q27Mxn3afo  Open AI’s 4o Power + Flux: Train the PERFECT Consistent Character
+  - chunks=6 created=6 skipped=0
+
+[20/20] DW9DVYo1374  Flux Dev Magic: Generate Images in SECONDS with Low VRAM!
+  - chunks=7 created=7 skipped=0
+
+DONE  videos=20 no_subs=1 chunks=129 created=129 skipped=0
+
+######## [5/8] @CorridorCrew (n=15, en) ########
+channel  : https://www.youtube.com/@CorridorCrew
+namespace: yt_corridorcrew
+n_videos : 15
+
+enumerating...
+found 15 videos
+
+[1/15] MNYJl_aKLIA  VFX Artists React to Bad & Great CG Eye 227
+  - chunks=12 created=12 skipped=0
+
+[2/15] L2hqgiW6NXw  We Recreated a 47 Year Old Effect: How Hard Could It Be?
+  - chunks=25 created=25 skipped=0
+
+[3/15] nKZ_qRj9ghg  VFX Artists React to Bad & Great CGi 226
+  - chunks=17 created=17 skipped=0
+
+[4/15] fERSX9oV0kE  I Made This For You...
+  - chunks=13 created=13 skipped=0
+
+[5/15] 2TSNiSjJaxk  VFX Artists React to Bad & Great CGi 225
+  - chunks=12 created=12 skipped=0
+
+[6/15] ftrTJTzV4PY  The Best and Worst Hollywood Resurrections
+  - chunks=21 created=21 skipped=0
+
+[7/15] WAjZRxw9HVY  VFX Artists React to Bad & Great CGi 224
+  - chunks=12 created=12 skipped=0
+
+[8/15] QnbaGmWUaww  VFX Artists Debunk UFO Sightings sent by FANS
+  - chunks=15 created=15 skipped=0
+
+[9/15] XexV7LchNbs  VFX Artists React to Bad & Great CGi 223
+  - chunks=12 created=12 skipped=0
+
+[10/15] ObhjJaCLBPM  We Compete to Make the Most SATISFYING CGi #9
+  - chunks=16 created=16 skipped=0
+
+[11/15] uxirix9rITs  VFX Artists React to Bad & Great CGi 222
+  - chunks=15 created=15 skipped=0
+
+[12/15] xKWkQ4llUeo  Stuntmen React to Bad & Great Hollywood Stunts 46
+  - chunks=13 created=13 skipped=0
+
+[13/15] Y3Dfw969itU  I accidentally started a green screen revolution...
+  - chunks=15 created=15 skipped=0
+
+[14/15] 9dfCQx81i8g  VFX Artists React to Bad & Great CGi 221
+  - chunks=13 created=13 skipped=0
+
+[15/15] UExYNu5j1uo  We Bought MORE Ai Shopping Scams So You Don’t Have To
+  - chunks=14 created=14 skipped=0
+
+DONE  videos=15 no_subs=0 chunks=225 created=225 skipped=0
+
+######## [6/8] @OUYCC (n=20, zh) ########
+channel  : https://www.youtube.com/@OUYCC
+namespace: yt_ouycc
+n_videos : 20
+
+enumerating...
+found 20 videos
+
+[1/20] VXynCYbdRJk  《丧尸清道夫》（zombie sweeper）爆火，真正厉害的不是技术，想学 AI 创作，先看懂这条路怎么走？ #AIGC #AI
+  - no English subs, skipping
+
+[2/20] aTg0L0tav6Y  VCP 如何让 AI 自己执行任务和学习？ 🎉 #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[3/20] wjGWOVP-jFg  大厂正在"跪着"求你用AI！错过这波等于损失一个亿 #人工智能 #AI #chatgpt #an
+  - no English subs, skipping
+
+[4/20] wm3sLgQuWtk  一人剪辑必看！靠这款AI工具搞定「视频生成+4K修复+去水印」，制作效率翻倍！#视频后期 #高清剪辑 #AI修复
+  - chunks=7 created=7 skipped=0
+
+[5/20] k9_W_U_nH4o  【VCP】网络检索三合一，Agent通讯、与汇报！#Ai #人工智能 #Agent #VCP
+  - chunks=16 created=16 skipped=0
+
+[6/20] s4PwhWVS9TQ  GPT-image2：AI创作新范式，把生活变成电影，AIGC创作心法！#AI #人工智能 #AIGC #视频生成 #GPT-im
+  - chunks=18 created=18 skipped=0
+
+[7/20] xyuxqGcAd-c  【VCP】小白必看！VCP云端0部署，一键启动-10分钟搞定前后端！#AI #人工智能 #Agent #VCP #云部署
+  - chunks=28 created=28 skipped=0
+
+[8/20] lkIbpDM9ghg  【VCP】上下文太长？模型变笨？一键解锁VCP上下文折叠的正确姿势！#VCP #上下文协议 #AI #人工智能 #Agent
+  - chunks=16 created=16 skipped=0
+
+[9/20] 7oSYoZbiTH8  claude也会抄袭？VCP梦系统深度解析，完整配置指南！#VCP #梦系统 #Rag检索 #人工智能 #Agent
+  - no English subs, skipping
+
+[10/20] p-3I8Rchs7E  【VCP】从零开始构建VCP日记管理Agent-记忆系统进阶 | VCP日记优化指南！#VCP #openclaw #AI #人工
+  - chunks=18 created=18 skipped=0
+
+[11/20] Lm7nPPJjL5s  【VCP】本地部署Qwen3.5 未删减版，隐私安全的角色扮演神器！#VCP #openclaw #AI #人工智能 #Agent
+  - chunks=9 created=9 skipped=0
+
+[12/20] fmZDp0CyqGU  一个视频说明白：什么是Agent系统？VCP为什么比Claw强,强多少?它们到底能做什么？ #VCP #openclaw #AI 
+  - chunks=22 created=22 skipped=0
+
+[13/20] BosfQqhlDGM  【VCP深度理解】VCP为什么是最强AI系统？让全球顶尖模型告诉你，从此对AI理解升维！ #VCP #AI #人工智能 #Agen
+  - no English subs, skipping
+
+[14/20] FWu_e2CHNv0  【VCP-AI系统】全面了解VCP六大插件系统，打造无限工具集，让你的ai真正动起来！ #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[15/20] 2Uv2Cwq_O00  【VCP-AI系统】了解和新功能，VCP后端管理面板配置全攻略！ #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[16/20] irfhnagKALo  【VCP-AI系统】构建首个Agent，角色变量设置技巧-服务器角色注册指南！ #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[17/20] rttb-IpKEZw  【VCP-Ai系统】浅谈记忆检索入门与Agent人格塑造！ #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[18/20] MyDYh699Uyg  【VCP】个人AI系统-config超详尽操作指南，基础结构全解析！ #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[19/20] UojewcCxpeM  【新年第一弹🎉】手把手部署VCP-打造最强个人AI系统！ #VCP #AI #人工智能 #Agent
+  - no English subs, skipping
+
+[20/20] eqSEEbgKCLk  小白快速打造「红包封面」微信小程序，AI助力：前端、数据、支付全搞定！#人工智能 #无代码 #开发  #小程序
+  - no English subs, skipping
+
+DONE  videos=20 no_subs=12 chunks=134 created=134 skipped=0
+
+######## [7/8] @Alchain (n=20, zh) ########
+channel  : https://www.youtube.com/@Alchain
+namespace: yt_alchain
+n_videos : 20
+
+enumerating...
+found 20 videos
+
+[1/20] mvE32yWrTKY  首发实测腾讯最新龙虾🦞产品：Marvis
+  - chunks=10 created=10 skipped=0
+
+[2/20] 6aJDuEU5n98  DeepSeek V4是怎么训练出来的？73页PPT深入解析
+  - chunks=24 created=24 skipped=0
+
+[3/20] DqqdZ85-5nk  GPT-5.5首发实测！比Claude Opus4.7强？
+  - chunks=12 created=12 skipped=0
+
+[4/20] 3KIOppSRaQ0  【首发】Claude Opus 4.7解读！细思极恐的技术报告
+  - chunks=11 created=11 skipped=0
+
+[5/20] koRzYM3R-gg  我蒸馏了17个大佬给我打工（开源免费）
+  - chunks=13 created=13 skipped=0
+
+[6/20] tth1WP0SwVg  谷歌最新模型Gemma4发布！深度解析+送42页资料
+  - chunks=10 created=10 skipped=0
+
+[7/20] DXTS82fJO9A  Claude Code源码泄漏，首发解读51万行代码！
+  - chunks=12 created=12 skipped=0
+
+[8/20] 9Glpx-RAXeM  DeepSeek史上最长宕机！新模型V4来了？
+  - chunks=13 created=13 skipped=0
+
+[9/20] MRMSY8JhRQg  OpenClaw从入门到精通：9个使用技巧，让龙虾真正帮你干活
+  - chunks=14 created=14 skipped=0
+
+[10/20] VJLrEF9p78M  我去香港问了一群学生：你们拿龙虾干嘛？
+  - chunks=4 created=4 skipped=0
+
+[11/20] SJmEVT6qwdE  🦞OpenClaw养虾指南02｜用扣子5分钟部署你的第一只会上大学、持续进化的龙虾
+  - chunks=14 created=14 skipped=0
+
+[12/20] MAJ5BApYQT0  🦞OpenClaw养虾指南：从入门到精通（赠98页pdf资料）
+  - chunks=23 created=23 skipped=0
+
+[13/20] mkfNUYiPNkw  一句话做出杂志级PPT：我的Claude Code Skill是怎么做到的？
+  - chunks=12 created=12 skipped=0
+
+[14/20] qpo_QPZ_Wus  数据分析师一周的活，AI一句话就干完了｜Agent Skill实操
+  - chunks=9 created=9 skipped=0
+
+[15/20] jTMqFSajuYM  DeepSeek V4发布前，梁文锋连发3篇论文，我读完发现一个规律
+  - chunks=11 created=11 skipped=0
+
+[16/20] KAZK1tWnQQw  Manus被Meta数十亿美元收购：独家完整复盘！
+  - chunks=9 created=9 skipped=0
+
+[17/20] TT5uoPI5Q2Y  【实测+解读】GPT5.2发布：74%的打工人任务，被AI攻克了
+  - chunks=12 created=12 skipped=0
+
+[18/20] rgk6PsIcs6s  不写代码！10分钟搭建企业知识库，图表PDF全能读懂！阿里云百炼RAG实战
+  - chunks=16 created=16 skipped=0
+
+[19/20] ZbysPz8TZJU  AI编程到底能快多少？亚马逊内部数据：10倍
+  - chunks=7 created=7 skipped=0
+
+[20/20] tq4AynTPmHU  【解读+实测】DeepSeek V3.2发布！超GPT-5，对标Gemini 3.0 Pro
+  - chunks=14 created=14 skipped=0
+
+DONE  videos=20 no_subs=0 chunks=250 created=250 skipped=0
+
+######## [8/8] @linbintalk (n=15, zh) ########
+channel  : https://www.youtube.com/@linbintalk
+namespace: yt_linbintalk
+n_videos : 15
+
+enumerating...
+found 15 videos
+
+[1/15] bBE1qM4ACFU  聊透Deepseek V4：深挖 V1～V4 进化史，看懂它到底强在哪！
+  - chunks=10 created=10 skipped=0
+
+[2/15] ds4MglDOBpo  【首发】GPT-5.5重磅上线！能自己搞定复杂任务的AI来了
+  - chunks=7 created=7 skipped=0
+
+[3/15] gUqSYfdcd0w  【OpenAI 王炸】GPT-image-2重磅发布，碾压Nano banana，设计圈炸锅了！
+  - chunks=6 created=6 skipped=0
+
+[4/15] BcjQW8FAbgc  【深度解析】什么是 Harness Engineering？这才是 2026 年 AI 开发的最强风口！
+  - chunks=8 created=8 skipped=0
+
+[5/15] DHCzZJ0q5Ns  【深度】Claude Opus 4.7悄然上线！但“不是最强”，背后在下什么大棋？
+  - chunks=8 created=8 skipped=0
+
+[6/15] 3R4jdMtLtzk  AI工作流已死？Agentic 时代，n8n这类工具还有学的必要吗？
+  - chunks=8 created=8 skipped=0
+
+[7/15] rx39_s9G6_8  【重磅解读】谷歌Gemma 4杀疯了：小模型性能炸裂，真正实现商用自由！
+  - no English subs, skipping
+
+[8/15] wxKHJMVyswQ  【重磅更新】OpenClaw 接入微信：官方版“龙虾”插件上线，附安装与实测！
+  - chunks=3 created=3 skipped=0
+
+[9/15] o5nY701PQ2Y  OpenClaw 新能力：最强浏览器自动化方案，免登录自动操作小红书、X、公众号等｜Chrome DevTools MCP
+  - chunks=8 created=8 skipped=0
+
+[10/15] 3Lg2rJG9rjg  【保姆级】OpenClaw进阶全攻略：高级玩法+飞书+Skills+安全防护，1 小时变身“养虾高手”！
+  - chunks=37 created=37 skipped=0
+
+[11/15] 2ZZCyHzo9as  【保姆级】OpenClaw 全网最细教学：安装→Skills实战→多Agent协作，1 小时全精通！
+  - chunks=36 created=36 skipped=0
+
+[12/15] Rgo4MiHBtLg  OpenAI放大招！Codex桌面版保姆级教学：小白如何开启 Vibe Coding？
+  - chunks=14 created=14 skipped=0
+
+[13/15] WsqFCtfML1w  终于，我用AI治好了"只收藏不学习"的坏毛病（附全自动工作流）
+  - chunks=19 created=19 skipped=0
+
+[14/15] 96LG1nms23Q  n8n要凉了？Claude Agent Skills实测对比，谁才是AI自动化之王！
+  - chunks=23 created=23 skipped=0
+
+[15/15] IAfLseXn75w  深扒n8n Top100社区节点：装上这些“外挂”，AI工作流强大10倍！
+  - chunks=19 created=19 skipped=0
+
+DONE  videos=15 no_subs=1 chunks=206 created=206 skipped=0
+
+==== TIER-2 DONE ====
+TOTALS: {"videos": 150, "chunks": 1405, "created": 1405, "no_subs": 15}
+[{"handle": "@flo.motion", "lang": "en", "tier": 2, "n_requested": 20, "videos": 20, "chunks": 85, "created": 85, "skipped": 0, "no_subs": 1, "namespace": "yt_flo.motion"}, {"handle": "@isadoesai", "lang": "en", "tier": 2, "n_requested": 20, "videos": 20, "chunks": 154, "created": 154, "skipped": 0, "no_subs": 0, "namespace": "yt_isadoesai"}, {"handle": "@NerdyRodent", "lang": "en", "tier": 2, "n_requested": 20, "videos": 20, "chunks": 222, "created": 222, "skipped": 0, "no_subs": 0, "namespace": "yt_nerdyrodent"}, {"handle": "@Aiconomist", "lang": "en", "tier": 2, "n_requested": 20, "videos": 20, "chunks": 129, "created": 129, "skipped": 0, "no_subs": 1, "namespace": "yt_aiconomist"}, {"handle": "@CorridorCrew", "lang": "en", "tier": 2, "n_requested": 15, "videos": 15, "chunks": 225, "created": 225, "skipped": 0, "no_subs": 0, "namespace": "yt_corridorcrew"}, {"handle": "@OUYCC", "lang": "zh", "tier": 2, "n_requested": 20, "videos": 20, "chunks": 134, "created": 134, "skipped": 0, "no_subs": 12, "namespace": "yt_ouycc"}, {"handle": "@Alchain", "lang": "zh", "tier": 2, "n_requested": 20, "videos": 20, "chunks": 250, "created": 250, "skipped": 0, "no_subs": 0, "namespace": "yt_alchain"}, {"handle": "@linbintalk", "lang": "zh", "tier": 2, "n_requested": 15, "videos": 15, "chunks": 206, "created": 206, "skipped": 0, "no_subs": 1, "namespace": "yt_linbintalk"}]

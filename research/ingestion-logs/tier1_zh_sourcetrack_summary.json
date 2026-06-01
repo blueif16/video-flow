@@ -1,0 +1,57 @@
+[
+  {
+    "handle": "@jiuyixiaoketang",
+    "lang": "zh",
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 210,
+    "created": 202,
+    "skipped": 8,
+    "no_subs": 1,
+    "namespace": "yt_jiuyixiaoketang"
+  },
+  {
+    "handle": "@papayaclass",
+    "lang": "zh",
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 215,
+    "created": 215,
+    "skipped": 0,
+    "no_subs": 11,
+    "namespace": "yt_papayaclass"
+  },
+  {
+    "handle": "@lingdujieshuo",
+    "lang": "zh",
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 176,
+    "created": 176,
+    "skipped": 0,
+    "no_subs": 7,
+    "namespace": "yt_lingdujieshuo"
+  },
+  {
+    "handle": "@joy-ai",
+    "lang": "zh",
+    "n_requested": 30,
+    "videos": 1,
+    "chunks": 0,
+    "created": 0,
+    "skipped": 0,
+    "no_subs": 1,
+    "namespace": "yt_joy-ai"
+  },
+  {
+    "handle": "@AI視覺實驗室",
+    "lang": "zh",
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 0,
+    "created": 0,
+    "skipped": 0,
+    "no_subs": 30,
+    "namespace": "yt_ai視覺實驗室"
+  }
+]

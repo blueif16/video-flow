@@ -1,0 +1,98 @@
+[
+  {
+    "handle": "@flo.motion",
+    "lang": "en",
+    "tier": 2,
+    "n_requested": 20,
+    "videos": 20,
+    "chunks": 85,
+    "created": 85,
+    "skipped": 0,
+    "no_subs": 1,
+    "namespace": "yt_flo.motion"
+  },
+  {
+    "handle": "@isadoesai",
+    "lang": "en",
+    "tier": 2,
+    "n_requested": 20,
+    "videos": 20,
+    "chunks": 154,
+    "created": 154,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_isadoesai"
+  },
+  {
+    "handle": "@NerdyRodent",
+    "lang": "en",
+    "tier": 2,
+    "n_requested": 20,
+    "videos": 20,
+    "chunks": 222,
+    "created": 222,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_nerdyrodent"
+  },
+  {
+    "handle": "@Aiconomist",
+    "lang": "en",
+    "tier": 2,
+    "n_requested": 20,
+    "videos": 20,
+    "chunks": 129,
+    "created": 129,
+    "skipped": 0,
+    "no_subs": 1,
+    "namespace": "yt_aiconomist"
+  },
+  {
+    "handle": "@CorridorCrew",
+    "lang": "en",
+    "tier": 2,
+    "n_requested": 15,
+    "videos": 15,
+    "chunks": 225,
+    "created": 225,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_corridorcrew"
+  },
+  {
+    "handle": "@OUYCC",
+    "lang": "zh",
+    "tier": 2,
+    "n_requested": 20,
+    "videos": 20,
+    "chunks": 134,
+    "created": 134,
+    "skipped": 0,
+    "no_subs": 12,
+    "namespace": "yt_ouycc"
+  },
+  {
+    "handle": "@Alchain",
+    "lang": "zh",
+    "tier": 2,
+    "n_requested": 20,
+    "videos": 20,
+    "chunks": 250,
+    "created": 250,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_alchain"
+  },
+  {
+    "handle": "@linbintalk",
+    "lang": "zh",
+    "tier": 2,
+    "n_requested": 15,
+    "videos": 15,
+    "chunks": 206,
+    "created": 206,
+    "skipped": 0,
+    "no_subs": 1,
+    "namespace": "yt_linbintalk"
+  }
+]

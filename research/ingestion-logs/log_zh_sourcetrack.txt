@@ -1,0 +1,445 @@
+
+######## [1/5] @jiuyixiaoketang (n=30, source-track) ########
+channel  : https://www.youtube.com/@jiuyixiaoketang
+namespace: yt_jiuyixiaoketang
+n_videos : 30
+
+enumerating...
+found 30 videos
+
+[1/30] Z93yESfxems  Stop foolishly jumping on the self-media bandwagon! Here are 3 se
+  - chunks=7 created=7 skipped=0
+
+[2/30] 4GsGyfqG3m8  Over 100 Million Views in 35 Hours! #1 for 11 Days Straight! Brea
+  - chunks=7 created=7 skipped=0
+
+[3/30] YHAuz0g3KSY  一句話生成25分鐘动画長片！動畫界ChatGPT橫空出世：5分鐘全自動工作流讓門檻歸零，自媒體生態正面臨降維打擊！
+  - chunks=6 created=6 skipped=0
+
+[4/30] En0zuKKpeQY  Airports completely wiped out? 2026 anti-blocking "ceiling" level
+  - chunks=9 created=9 skipped=0
+
+[5/30] TV_auVZeUys  別再浪費額度！GPT-Image2 終極指南：17種硬核玩法一鍵解鎖！帶你直達 AI 創作天花板！AI搞錢 | AI工具 | AI
+  - chunks=6 created=6 skipped=0
+
+[6/30] LK2xq52PUhc  A bloodbath in the AI ​​industry! Stop recklessly subscribing to 
+  - chunks=7 created=7 skipped=0
+
+[7/30] NjGzfJCEGUg  [Hands-on Guide] Create a top-tier AI influencer without showing 
+  - chunks=8 created=8 skipped=0
+
+[8/30] zmETsyALUX8  【重磅解讀】谷歌 Gemma 4 殺瘋了！全網最細部署教程：手把手帶你零成本白嫖谷歌開源天花板，徹底終結收費時代！
+  - no English subs, skipping
+
+[9/30] xB_gpZS2PRs  不到 30 支影片月入 3 萬美金！揭秘「AI 英文動畫」暴利流水線：0 基礎也能照抄！
+  - chunks=10 created=10 skipped=0
+
+[10/30] e-Y6kYIw5EA  【2026 必看】AI Agent 終極實戰：從原理拆解到「萬能 Skill 製造機」自製！全網最全 SOP 帶你零代碼手搓數位特
+  - chunks=10 created=10 skipped=0
+
+[11/30] QVX1WQdou28  Seedance 2.0 已死？真相是它強得太離譜！7 個降維打擊玩法，教你暴力自動化變現（附神仙指令）
+  - chunks=8 created=8 skipped=0
+
+[12/30] xaSAzC9BxPY  【AI影片全自動化】一人成軍打造跨國MCN流水線：3套極客私藏SOP全拆解，10倍速批量產出爆款，幹掉專業影視團隊，實現全球流量印
+  - chunks=6 created=6 skipped=0
+
+[13/30] mhtaDFxo85k  【NotebookLM 終極實操教程】5 個黑產級變現玩法：別再把它當普通筆記軟件，10 分鐘打造自動化印鈔機
+  - chunks=8 created=8 skipped=0
+
+[14/30] iZztzn0eFXE  2026年副业月入3w！真实分享我在小红书做过的独家致富野路子！我用AI把老大爷干失业了！
+  - chunks=6 created=6 skipped=0
+
+[15/30] UDzaZq2P16A  30天狂赚270万美元！30岁外国小伙，靠AI打爆千万级单品！【AI一人公司保姆级教程】
+  - chunks=6 created=6 skipped=0
+
+[16/30] nFXKf5lfJ00  深度实测Seedance 2.0：秒杀同类AI视频生成工具，告别抽卡！创作者的核武级变现利器！（附提示词）【LitVideo 一站
+  - chunks=6 created=6 skipped=0
+
+[17/30] qD9ucwXtyM8  【AI貓咪跳舞教學】月入1萬美金？揭秘爆火流量背後的自動化SOP，普通人靠AI也能批量複製變現！#AI貓咪跳舞 #AI變現 #AI
+  - chunks=6 created=6 skipped=0
+
+[18/30] 2tQG3xvSKSs  【AI動畫全自動化】5支影片撬動百萬播放！揭秘百萬播放「火柴人」思維變現新邏輯，AI自動化流水線全拆解，零基礎批量產出爆款動畫，讓
+  - chunks=7 created=7 skipped=0
+
+[19/30] LPRMT9uTkVc  AI新时代已经到来，导演即将失业，Seedance 2.0太牛了！可以自己演电影了，效果太炸裂了！
+  - chunks=5 created=5 skipped=0
+
+[20/30] Yd7JbZEMZFs  光绪唱歌,慈禧弹琵琶?我用免费AI组建“大清摇滚乐队”! 歌曲生成+对口型全流程教学, 8G显存流畅运行【2026最新版】
+  - chunks=8 created=0 skipped=8
+
+[21/30] oiMjNbHqnP0  全网最牛TTS！Qwen3本地一键启动：零成本克隆专属音色+多音色对话克隆，仅4G显存就能跑出真人质感，自媒体自动化必备！
+  - chunks=7 created=7 skipped=0
+
+[22/30] iiI-CiS_sis  别再刷短剧了！我用AI复刻过亿播放“逆天漫剧”，固定角色+风格一致全流程拆解，普通人翻身首选！
+  - chunks=7 created=7 skipped=0
+
+[23/30] y9BEaznufeg  简单暴利，小红书年入500万，2026年新风口！赚疯了！真实案例分享！
+  - chunks=6 created=6 skipped=0
+
+[24/30] YwiGVSgZrhg  【暴利拆解】克隆 查理芒格 声音？月入2万美元！用AI做YouTube高CPM的财经频道，一支视频就赚$3500！
+  - chunks=7 created=7 skipped=0
+
+[25/30] d0pDT2X1uyo  【AI黑科技】0基础，直接AI生成！深挖AI皮影戏赛道，避开内卷，起号速度太惊人！这才是2026年出海最稳的玩法
+  - chunks=8 created=8 skipped=0
+
+[26/30] 7ZJx3dyxRes  【保姆级教程】批量高收益玩法！7天开通YPP！克隆声音能不能做？关键点来了！
+  - chunks=10 created=10 skipped=0
+
+[27/30] v6DmVH3_ZgA  独家AI数字人工具！内含三种专属IP模式，YouTube运营爆款必备，代替真人出镜
+  - chunks=7 created=7 skipped=0
+
+[28/30] j4Fuo5I5b8A  一个人顶一个团队？实战 AI 搭建“一人公司”：从想法到产品模型全拆解（含 Atoms 工具应用）
+  - chunks=8 created=8 skipped=0
+
+[29/30] QK8MsyGYGt0  不会剪辑，也能拍“电影级探班”？我用 AI 拍了一条丝滑片场短片｜全流程拆解#ChatArt #AI探班 #AI拍片 #AI视频生
+  - chunks=8 created=8 skipped=0
+
+[30/30] RC2Zqo62CuA  不花一分钱！实测 AI 制作 3D 动画全流程：彻底解决角色一致与口型同步，新手也能 1:1 复刻！
+  - chunks=6 created=6 skipped=0
+
+DONE  videos=30 no_subs=1 chunks=210 created=202 skipped=8
+
+######## [2/5] @papayaclass (n=30, source-track) ########
+channel  : https://www.youtube.com/@papayaclass
+namespace: yt_papayaclass
+n_videos : 30
+
+enumerating...
+found 30 videos
+
+[1/30] W5ymBPi53Tw  An AI assistant that takes over the entire Office suite! The powe
+  - chunks=13 created=13 skipped=0
+
+[2/30] WF3YwmeOa7g  From zero to an animated film in just 3 steps! The amazing duo of
+ERROR: [youtube] WF3YwmeOa7g: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] WF3YwmeOa7g: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[3/30] r5M0W66xcGc  Don't underestimate local AI! Gemma 4 + LM Studio turns your comp
+  - chunks=12 created=12 skipped=0
+
+[4/30] JxaI6HK2onc  超強的 AI 前端設計師來了！Claude Design 跟你聊聊天就把網站設計出來，而且還貼心地幫你一鍵上線！
+  - chunks=9 created=9 skipped=0
+
+[5/30] WKCV7cmtq9I  Claude is so talented, he can even make animations? He uses Remot
+ERROR: [youtube] WKCV7cmtq9I: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] WKCV7cmtq9I: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[6/30] 8S6yvJMlmLs  Company policy requires the use of SharePoint, but you don't unde
+  - chunks=14 created=14 skipped=0
+
+[7/30] _cVTzXvb7xs  Claude Cowork 最友善的手把手教學！你還在叫 AI 幫你想答案？但高手們都已經在用 AI 交成品了 ~
+  - chunks=13 created=13 skipped=0
+
+[8/30] 1Kp7714OaVM  Excel 和 PowerPoint 最強外掛沒有之一！Claude 不但精通兩個軟體，還能跨應用連動玩合體技！(Ep.121)
+ERROR: [youtube] 1Kp7714OaVM: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] 1Kp7714OaVM: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[9/30] 2pM-7fBXc_M  還在羨慕別人用 AI 開發酷產品？Claude Code 保姆級教學讓你輕鬆體驗 Vibe Coding, 動動嘴就能做出 Any
+  - chunks=18 created=18 skipped=0
+
+[10/30] 2Ct5fwug9to  Notion 出大招了！新功能 Custom Agent 24 小時隨時待命，成為你最忠實的零薪水管家！(Ep.120)
+ERROR: [youtube] 2Ct5fwug9to: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] 2Ct5fwug9to: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[11/30] bPvATU2ZOLU  嗯啊口頭禪全部自動消失！Typeless 語音神器直接淘汰傳統輸入法，講錯直接改口它也聽得懂喔！
+  - chunks=6 created=6 skipped=0
+
+[12/30] UEe9-w4CcQ0  別再被訂閱制優化軟體綁架了！完全開源零廣告 Mole 幫你揪出藏在深處的肥大檔案，讓 Mac 順得像剛買的一樣！
+  - chunks=4 created=4 skipped=0
+
+[13/30] S0c4bD3daN8  開源 AI 模型比付費的更香？Hugging Face 就是你的軍火庫，免費玩頂級開源 AI 還能本地客製化！
+  - chunks=12 created=12 skipped=0
+
+[14/30] 2p2UdbG8aog  解鎖 iPhone 隱藏玩法！用 AI 自製動態桌布，每天解鎖都是驚喜 ~ 🎉 (Ep.119)
+ERROR: [youtube] 2p2UdbG8aog: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] 2p2UdbG8aog: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[15/30] Ao4EJtmrzJs  還在手動拉方塊、辛苦找付費範本？揭秘 Excel 隱藏版高級技巧，不用 VBA 也能製作出高質感的「動態時間軸」！
+  - chunks=7 created=7 skipped=0
+
+[16/30] 6dEQZQR4R0o  別花冤枉錢買新硬碟！免費神器 Handbrake 讓影片檔案「縮小 80%」且畫質幾乎無損？
+  - chunks=9 created=9 skipped=0
+
+[17/30] ILdLffg-Ryg  把鞋穿上！我們一起「走」進這張圖！Nano Banana 隱藏技巧大公開，原來 AI 生成圖還能這樣玩！(Ep.118)
+ERROR: [youtube] ILdLffg-Ryg: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] ILdLffg-Ryg: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[18/30] SqI3y54TK-4  MV 大導演換你來當！Suno + Nano Banana + Kling 黃金組合讓一個人就能幹掉整個劇組？
+  - chunks=17 created=17 skipped=0
+
+[19/30] S13Zgkhjo18  Word 排版排到崩潰？使用 AI 幫你補上最後一塊拼圖，一分鐘搞定「多層次清單」的千古難題！
+  - chunks=5 created=5 skipped=0
+
+[20/30] Ikg0Jdv0NCc  想學「JoJo 立」但是怕閃到腰？救星來囉 ~ 只要 1 張自拍 AI 幫你生成超帥動態短片！(Ep.117)
+ERROR: [youtube] Ikg0Jdv0NCc: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] Ikg0Jdv0NCc: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[21/30] dHknQINzPdg  ChatGPT 退訂潮擋不住了？Gemini 整合 Google Workspace 全功能詳解！保母級教學讓你從零到精通！
+  - chunks=14 created=14 skipped=0
+
+[22/30] 7CmOCIqbpoc  設計師必備神器！Adobe 推出的「無限畫布」Firefly Boards 不只能找圖，還能直接用 Banana 生圖！(Ep.1
+ERROR: [youtube] 7CmOCIqbpoc: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] 7CmOCIqbpoc: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[23/30] SY5r4rM8JGk  Affinity 專業設計軟體「永久免費」！快速上手指南讓你 0 元同時掌握 Photoshop + Illustrator + 
+  - chunks=16 created=16 skipped=0
+
+[24/30] ckgg1jRg5nM  還在辛苦手動畫圖表？ChatGPT + Figma 組合拳讓流程圖自動生成且專業美觀！(Ep.115)
+ERROR: [youtube] ckgg1jRg5nM: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] ckgg1jRg5nM: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[25/30] paJpjzzEcjY  大半夜還在用私人 Line 回覆客戶/家長的問題？「Line 官方帳號 + AI 助理」讓你實現公私分明，擺脫 80% 雜務！
+  - chunks=16 created=16 skipped=0
+
+[26/30] LC-4bOf-mAU  Notion 條件式顏色支援「公式」了！用「公式」驅動顏色，打造真正動態的視覺化資料庫！(Ep.114)
+ERROR: [youtube] LC-4bOf-mAU: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] LC-4bOf-mAU: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[27/30] exMx3lLs6aw  促銷廣告、浮動視窗滿天飛，裝了擋廣告也沒輒？來試試這個 ~ 讓你瀏覽網站時變得「從從容容．游刃有餘」！
+  - chunks=2 created=2 skipped=0
+
+[28/30] 4mEddAUzzgk  嫌 Google 表單功能太陽春？Jotform 自動跑流程 + 簽名審核 + 任務分派一次搞定！省下 80% 的行政時間！
+  - chunks=11 created=11 skipped=0
+
+[29/30] K2_lgpTThEw  打不過人家就加入它吧 🍌 Photoshop 導入最強外掛 Nano Banana，合體後修圖又有了新玩法！(Ep.113)
+ERROR: [youtube] K2_lgpTThEw: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  ! yt-dlp failed: ERROR: [youtube] K2_lgpTThEw: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - no English subs, skipping
+
+[30/30] KHCHTCXGyug  一人動畫公司不是夢！揭密 AI 動畫完整製作流程 ~ 從發想到影片生成一條龍實作教學！
+  - chunks=17 created=17 skipped=0
+
+DONE  videos=30 no_subs=11 chunks=215 created=215 skipped=0
+
+######## [3/5] @lingdujieshuo (n=30, source-track) ########
+channel  : https://www.youtube.com/@lingdujieshuo
+namespace: yt_lingdujieshuo
+n_videos : 30
+
+enumerating...
+found 30 videos
+
+[1/30] 9EVDEpK6vfg  Claude Opus 4.8 发布！实测封神，强到离谱，Anthropic 重回AI之巅？一起看测试效果.... | 零度解说
+  - no English subs, skipping
+
+[2/30] IDZIi76HTUE  紧急预警：Windows 11 证书3天后到期！Win10已停服，这套“终极纯净”方案救你于水火！| 零度解说
+  - chunks=8 created=8 skipped=0
+
+[3/30] mpuaOKSYkqM  OpenAI Codex  彻底免费！Ollama、llama.cpp 接入本地大模型，AI Agent 开始全自动干活！Toke
+  - chunks=9 created=9 skipped=0
+
+[4/30] S0_4AUJflNc  Qwen3.6“越狱”了！目前最强无审查开源模型！支持本地 Agent，6G 显存都能跑！附部署教程｜零度解说
+  - chunks=8 created=8 skipped=0
+
+[5/30] nU9c-PffHPg  8G 显存逆天了！竟能跑 35B AI 大模型！多模态 + N/A/Intel 全适配，附最新部署教程！｜零度解说
+  - chunks=8 created=8 skipped=0
+
+[6/30] rn--5FXObX4  Google I/O “掀桌子”了！重磅发布 Gemini 3.5 Flash、Gemini Omni 模型！附最新免费用法｜零度
+ERROR: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+  ! yt-dlp failed: ERROR: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+  - no English subs, skipping
+
+[7/30] uqsL3RcBfn8  llama.cpp 最新版太强了！本地跑 “无审查模型” 速度暴涨！N卡/A卡/Intel 全支持｜零度解说
+  - no English subs, skipping
+
+[8/30] 6iONJKrFs1k  100%免费！Claude Code 跑本地模型，无需 API！免翻墙使用超强AI Agent｜Ollama｜CC Switch｜
+  - chunks=10 created=10 skipped=0
+
+[9/30] q69Ts1Hq9k8  Windows 11 最完整备份与还原！重装系统后，软件数据一个不丢！别等后悔才想起！｜零度解说
+  - no English subs, skipping
+
+[10/30] Nms56KhvIQw  爆火的“无审查”AI 视频模型来了！Sulphur 2 本地部署实测：8G 显存也能跑！完全免费开源 | 零度解说
+  - no English subs, skipping
+
+[11/30] 2hWbV2aJpQA  Chrome 被曝偷偷下载 4GB AI 模型！你电脑正在后台跑 AI？附彻底禁止方法！｜零度解说
+  - chunks=6 created=6 skipped=0
+
+[12/30] krEDel3aGGw  GPT-5.5 Instant 免费开放！速度、中文、代码全变强？实测告诉你答案！ | 零度解说
+  - chunks=8 created=8 skipped=0
+
+[13/30] dloebpfMODk  立即卸载！Edge 浏览器爆密码”裸奔”，Chrome是否也中招？漏洞实测及2步紧急防护！| 零度解说
+  - chunks=6 created=6 skipped=0
+
+[14/30] Kh8tGD5liwo  零成本无限 Token！Hermes + Qwen3.6，本地最强 Agent 组合来了！附部署教程 | 零度解说
+  - chunks=7 created=7 skipped=0
+
+[15/30] nYJTxvrL9lk  最强语音转文字！免费开源、准确率高达99%！本地部署 + Google AI 两套最佳方案，上字幕就这么简单！| 零度解说
+  - chunks=7 created=7 skipped=0
+
+[16/30] 5g1AJwNNdwg  OpenClaw 免费接入 GPT Images 2.0 最强AI图片模型！无需 API Key、不耗 Token，5 分钟搞定！
+  - chunks=8 created=8 skipped=0
+
+[17/30] LupCuWxtktg  谁才是最强王者？ChatGPT 5.5、Claude 4.7、Deepseek V4、Qwen 3.6 编程实测见真章！| 零度解
+  - chunks=13 created=13 skipped=0
+
+[18/30] aRkW4S5BWGo  GPT-5.5 正式发布！OpenAI 最强模型来了：这次强得有点离谱…
+  - no English subs, skipping
+
+[19/30] FIBfRo-rHBo  DeepSeek V4 重磅开源！100万上下文 + MoE 架构碾压对手，Agent 能力直逼Claude？| 零度解说
+  - chunks=7 created=7 skipped=0
+
+[20/30] 6jHvEa_aHtY  ChatGPT Images 2.0 正式发布！免费可用，OpenAI 最强图片模型！效果到底有多强？| 零度解说
+  - chunks=6 created=6 skipped=0
+
+[21/30] GGRBB716bP4  轻舟VPN不限流量！实测速度有多快？附免费激活码（限量领取）支持全平台！【非翻墙工具】| 零度解说
+  - chunks=6 created=6 skipped=0
+
+[22/30] 77dNa9uscTM  Google 把 AI 搜索塞进 Windows！完全免费，比传统搜索强太多了（实测体验）| 零度解说
+  - chunks=7 created=7 skipped=0
+
+[23/30] vsm1oVl_pzE  5分钟搭建AI助手！自动接单+自动回复，小白也能用（无需代码）｜Hostinger｜零度解说
+  - chunks=6 created=6 skipped=0
+
+[24/30] 0dztupxdseE  太爽了！Hermes Agent 发布UI了，本地对接最强开源 Gemma 4 模型+ 微信（免费无需Token）| 零度解说
+  - chunks=9 created=9 skipped=0
+
+[25/30] oW6DOhGaVTs  Gemma 4 被越狱了！谷歌最强开源模型，这才是普通人真正需要的本地AI！| 零度解说
+  - chunks=6 created=6 skipped=0
+
+[26/30] gi7HV2WHxBs  删掉 OpenClaw！Hermes Agent 才是真王炸，一键本地部署 + TG接入全教程（避坑指南） | 零度解说
+  - chunks=8 created=8 skipped=0
+
+[27/30] S5CF--dRwws  别再傻傻订阅一堆AI了！这个工具1个顶5个，帮你省下$1000月 | Skywork实测 | 零度解说
+  - chunks=8 created=8 skipped=0
+
+[28/30] ZVdx9VmpE7g  Qwen3.6-Plus 太猛了！免费 + 百万上下文 + Agent + 视觉多模态AI能力拉满！| 零度解说
+  - chunks=8 created=8 skipped=0
+
+[29/30] bqjvxnVbfdE  零成本跑最强AI！Gemma 4手机本地部署（支持离线+多模态）安卓+iPhone全搞定 | 零度解说
+  - chunks=7 created=7 skipped=0
+
+[30/30] y_mz59nDC0g  人类54年后再奔月！阿尔忒弥斯2号飞向深空，宇航员首次实时连线地球！ | 零度解说
+ERROR: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+  ! yt-dlp failed: ERROR: Unable to download video subtitles for 'zh-Hans': HTTP Error 429: Too Many Requests
+  - no English subs, skipping
+
+DONE  videos=30 no_subs=7 chunks=176 created=176 skipped=0
+
+######## [4/5] @joy-ai (n=30, source-track) ########
+channel  : https://www.youtube.com/@joy-ai
+namespace: yt_joy-ai
+n_videos : 30
+
+enumerating...
+found 1 videos
+
+[1/1] qcbW3Potm_A  Fuel Your Entrepreneurial Journey: 5 Powerful Books You Shouldn't
+ERROR: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+  ! yt-dlp failed: ERROR: Unable to download video subtitles for 'zh-Hant': HTTP Error 429: Too Many Requests
+  - no English subs, skipping
+
+DONE  videos=1 no_subs=1 chunks=0 created=0 skipped=0
+
+######## [5/5] @AI視覺實驗室 (n=30, source-track) ########
+channel  : https://www.youtube.com/@AI視覺實驗室
+namespace: yt_ai視覺實驗室
+n_videos : 30
+
+enumerating...
+found 30 videos
+
+[1/30] BJ0ZssT2kpI  AI Generated Long-Form Videos: Break the 15-Second Limit! Master 
+  - no English subs, skipping
+
+[2/30] -TwCLMKFLYg  From a single storyboard image to a finished film: ChatGPT Images
+  - no English subs, skipping
+
+[3/30] fvgT8E29dVE  OpenAI's image generation logic has undergone a major evolution! 
+  - no English subs, skipping
+
+[4/30] sAqV9LiOO84  2026 全網爆紅「雪山救狐」AI 影片教學！Seedance 2.0 多模態工作流全公開！配樂跟嘴型都幫你對好了！
+  - no English subs, skipping
+
+[5/30] CVEN3OctL78  【5分鐘 AI 教學】Google Pomelli，從品牌識別到行銷素材製作，一鍵導入品牌網站，生成行銷素材！視覺 DNA 提取、
+  - no English subs, skipping
+
+[6/30] qr_fwE-K4Xo  一張產品照片生成電影級 Callout 標註產品資訊全攻略！產品、人物、地圖3D資訊介紹一次學會！ Nano Banana 2, 
+  - no English subs, skipping
+
+[7/30] VlTlBIkSSP0  2026是否還有免費圖片影片生成工具？破解橫屏限制，Meta AI圖片影片免費生成功能解析！GROK, META AI, 免費AI
+  - no English subs, skipping
+
+[8/30] 8N5g_2ES4gQ  【5分鐘 AI 教學】「還在用AE做文字片頭？Google Veo 3.1 讓一張無聊文字 Logo 秒變好萊塢片頭」！客製化Ch
+  - no English subs, skipping
+
+[9/30] WCeOgy3nBsU  長時間AI影片！免費生成一鏡到底AI影片？Grok Imagine 延伸功能全解析！
+  - no English subs, skipping
+
+[10/30] SeijaXCpJyU  Reverse engineer the viral AI video effects filters, generating e
+  - no English subs, skipping
+
+[11/30] PgDuFys3zF8  The New King of AI-Powered Image Creation? Nano Banana 2 vs Nano 
+  - no English subs, skipping
+
+[12/30] i0o8ms5CCOI  AI影片生成Google Flow 全能工作室！介面工具全面改版實測：影片延伸、局部修改從生圖到運鏡，一個頁面搞定 AI 創作！ 
+  - no English subs, skipping
+
+[13/30] NyQfydqnnzA  [5-Minute AI Tutorial] I want it all! Still searching for Nano Ba
+  - no English subs, skipping
+
+[14/30] YgU_ikUWa-s  [5-Minute AI Tutorial] Stop taking candid photos! Master these 20
+  - no English subs, skipping
+
+[15/30] sP5blzfPZoA  [5-Minute AI Tutorial] Creating Instantaneous Movement Videos wit
+  - no English subs, skipping
+
+[16/30] E6xcKAfwcVw  告別平庸圖庫！Gemini 搭配AI 繪圖與影片生成模型，打造專屬視覺素材全攻略, Nano Banana Pro、Midjour
+  - no English subs, skipping
+
+[17/30] thhPISnnXEk  [5-Minute AI Tutorial] Just one sentence! Gemini can write songs 
+  - no English subs, skipping
+
+[18/30] CEXTPQedtXc  [5-Minute AI Tutorial] Instantly transform a photo into a profess
+  - no English subs, skipping
+
+[19/30] X41wybRei44  [5-Minute AI Tutorial] Replace Characters in a Video with AI: AI 
+  - no English subs, skipping
+
+[20/30] wUJa_NdsJ6s  [Video Generation Command Techniques] Timestamps Can Issue Comman
+  - no English subs, skipping
+
+[21/30] saRhsLNvLeo  [5-Minute AI Tutorial] Create 5 Adorably Cute and Cool Animated H
+  - no English subs, skipping
+
+[22/30] fJlaul5LoBg  [Seedance 2.0 Released with a Bang] Precise control surpassing Ve
+  - no English subs, skipping
+
+[23/30] OGE5i6nAdi0  [AI Time-lapse Photography] Shooting time-lapse photos will take 
+  - no English subs, skipping
+
+[24/30] 0WdqV2If5lk  [AI Visual Effects] Want to add special effects to your videos bu
+  - no English subs, skipping
+
+[25/30] qHlU0b_9NJ4  [Google Flow Interface Ultimate Tutorial] A Complete Analysis of 
+  - no English subs, skipping
+
+[26/30] kQ65IJsm36Y  [5-Minute AI Tutorial] Transform Your Phone Photography into Comm
+  - no English subs, skipping
+
+[27/30] n4r3xLujXq4  [5-Minute AI Tutorial] Google's Secret Weapon! Gemini-TTS offers 
+  - no English subs, skipping
+
+[28/30] THJ9RCUgm3Q  【5分鐘 AI 教學】一張照片秒變史詩級空拍鏡頭！Google Gemini 隱藏用法：平面照變 3D 空拍影片？Nano Ban
+  - no English subs, skipping
+
+[29/30] PmZgOm-40XM  【AI影片生成教學】 別學大神爬 101！用 SORA AI 實現不可能的攀爬挑戰! 免費SORA 2 點數解析
+  - no English subs, skipping
+
+[30/30] do4cHwzaZ7M  【5分鐘 AI 教學】 AI免費生影片! 用Grok Imagine製作超越想像的 AI ASMR！ Grok, Imagine,
+  - no English subs, skipping
+
+DONE  videos=30 no_subs=30 chunks=0 created=0 skipped=0
+
+==== ZH SOURCE-TRACK RE-RUN DONE ====
+TOTALS: {"videos": 121, "chunks": 601, "created": 593, "no_subs": 50}
+[{"handle": "@jiuyixiaoketang", "lang": "zh", "n_requested": 30, "videos": 30, "chunks": 210, "created": 202, "skipped": 8, "no_subs": 1, "namespace": "yt_jiuyixiaoketang"}, {"handle": "@papayaclass", "lang": "zh", "n_requested": 30, "videos": 30, "chunks": 215, "created": 215, "skipped": 0, "no_subs": 11, "namespace": "yt_papayaclass"}, {"handle": "@lingdujieshuo", "lang": "zh", "n_requested": 30, "videos": 30, "chunks": 176, "created": 176, "skipped": 0, "no_subs": 7, "namespace": "yt_lingdujieshuo"}, {"handle": "@joy-ai", "lang": "zh", "n_requested": 30, "videos": 1, "chunks": 0, "created": 0, "skipped": 0, "no_subs": 1, "namespace": "yt_joy-ai"}, {"handle": "@AI視覺實驗室", "lang": "zh", "n_requested": 30, "videos": 30, "chunks": 0, "created": 0, "skipped": 0, "no_subs": 30, "namespace": "yt_ai視覺實驗室"}]

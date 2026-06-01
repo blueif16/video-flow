@@ -1,0 +1,155 @@
+=== TIER-1 INGEST COMPLETE ===
+
+DONE  videos=30 no_subs=30 chunks=0 created=0 skipped=0
+
+==== ALL DONE ====
+TOTALS: {"videos": 314, "chunks": 2383, "created": 2383, "no_subs": 119}
+[{"handle": "@TheoreticallyMedia", "lang": "en", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 336, "created": 336, "skipped": 0, "no_subs": 0, "namespace": "yt_theoreticallymedia"}, {"handle": "@curiousrefuge", "lang": "en", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 470, "created": 470, "skipped": 0, "no_subs": 0, "namespace": "yt_curiousrefuge"}, {"handle": "@mickmumpitz", "lang": "en", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 310, "created": 310, "skipped": 0, "no_subs": 0, "namespace": "yt_mickmumpitz"}, {"handle": "@taoprompts", "lang": "en", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 369, "created": 369, "skipped": 0, "no_subs": 0, "namespace": "yt_taoprompts"}, {"handle": "@JackVsAI", "lang": "en", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 424, "created": 424, "skipped": 0, "no_subs": 0, "namespace": "yt_jackvsai"}, {"handle": "@conorcreates123", "lang": "en", "tier": 1, "n_requested": 30, "videos": 13, "chunks": 101, "created": 101, "skipped": 0, "no_subs": 0, "namespace": "yt_conorcreates123"}, {"handle": "@BenjisAIPlayground", "lang": "en", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 343, "created": 343, "skipped": 0, "no_subs": 0, "namespace": "yt_benjisaiplayground"}, {"handle": "@jiuyixiaoketang", "lang": "zh", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 0, "created": 0, "skipped": 0, "no_subs": 30, "namespace": "yt_jiuyixiaoketang"}, {"handle": "@papayaclass", "lang": "zh", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 0, "created": 0, "skipped": 0, "no_subs": 30, "namespace": "yt_papayaclass"}, {"handle": "@lingdujieshuo", "lang": "zh", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 27, "created": 27, "skipped": 0, "no_subs": 29, "namespace": "yt_lingdujieshuo"}, {"handle": "@joy-ai", "lang": "zh", "tier": 1, "n_requested": 30, "videos": 1, "chunks": 3, "created": 3, "skipped": 0, "no_subs": 0, "namespace": "yt_joy-ai"}, {"handle": "@AI視覺實驗室", "lang": "zh", "tier": 1, "n_requested": 30, "videos": 30, "chunks": 0, "created": 0, "skipped": 0, "no_subs": 30, "namespace": "yt_ai視覺實驗室"}]
+
+=== FINAL SUMMARY (per channel) ===
+[
+  {
+    "handle": "@TheoreticallyMedia",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 336,
+    "created": 336,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_theoreticallymedia"
+  },
+  {
+    "handle": "@curiousrefuge",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 470,
+    "created": 470,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_curiousrefuge"
+  },
+  {
+    "handle": "@mickmumpitz",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 310,
+    "created": 310,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_mickmumpitz"
+  },
+  {
+    "handle": "@taoprompts",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 369,
+    "created": 369,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_taoprompts"
+  },
+  {
+    "handle": "@JackVsAI",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 424,
+    "created": 424,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_jackvsai"
+  },
+  {
+    "handle": "@conorcreates123",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 13,
+    "chunks": 101,
+    "created": 101,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_conorcreates123"
+  },
+  {
+    "handle": "@BenjisAIPlayground",
+    "lang": "en",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 343,
+    "created": 343,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_benjisaiplayground"
+  },
+  {
+    "handle": "@jiuyixiaoketang",
+    "lang": "zh",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 0,
+    "created": 0,
+    "skipped": 0,
+    "no_subs": 30,
+    "namespace": "yt_jiuyixiaoketang"
+  },
+  {
+    "handle": "@papayaclass",
+    "lang": "zh",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 0,
+    "created": 0,
+    "skipped": 0,
+    "no_subs": 30,
+    "namespace": "yt_papayaclass"
+  },
+  {
+    "handle": "@lingdujieshuo",
+    "lang": "zh",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 27,
+    "created": 27,
+    "skipped": 0,
+    "no_subs": 29,
+    "namespace": "yt_lingdujieshuo"
+  },
+  {
+    "handle": "@joy-ai",
+    "lang": "zh",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 1,
+    "chunks": 3,
+    "created": 3,
+    "skipped": 0,
+    "no_subs": 0,
+    "namespace": "yt_joy-ai"
+  },
+  {
+    "handle": "@AI視覺實驗室",
+    "lang": "zh",
+    "tier": 1,
+    "n_requested": 30,
+    "videos": 30,
+    "chunks": 0,
+    "created": 0,
+    "skipped": 0,
+    "no_subs": 30,
+    "namespace": "yt_ai視覺實驗室"
+  }
+]
