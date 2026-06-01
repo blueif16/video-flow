@@ -1,0 +1,68 @@
+{
+  "style_id": "国漫暗黑",
+  "shot_type": "default",
+  "description": "Base rubric for the 国漫暗黑 style. close_up.json / wide.json extend this; the judge reads the most specific file and falls back here.",
+  "pass_threshold": 0.72,
+  "axes": [
+    {
+      "key": "drift",
+      "label": "角色/场景一致性 (vs bible)",
+      "weight": 0.30,
+      "failure_mode": "drift",
+      "checks": [
+        "固定特征词 present and unchanged (hair, eye color, scar, garment main color)",
+        "no 禁止变化项 violated relative to the locked reference image(s)"
+      ]
+    },
+    {
+      "key": "on_prompt",
+      "label": "符合 intent / action / 景别",
+      "weight": 0.20,
+      "failure_mode": "off-prompt",
+      "checks": [
+        "subject, action and camera 景别 match the prompt",
+        "the stated dialogue/emotion is readable on screen (show-don't-tell)"
+      ]
+    },
+    {
+      "key": "anatomy",
+      "label": "解剖 / 手部 / 面部完整",
+      "weight": 0.15,
+      "failure_mode": "anatomy",
+      "checks": [
+        "no extra fingers, deformed hands, melted faces, broken limbs"
+      ]
+    },
+    {
+      "key": "artifact",
+      "label": "无生成伪影 / 水印 / 文字乱码",
+      "weight": 0.10,
+      "failure_mode": "artifact",
+      "checks": [
+        "no watermark, no garbled text, no lowres/blur from upscale seams"
+      ]
+    },
+    {
+      "key": "style_floor",
+      "label": "风格底线 (negative-floor)",
+      "weight": 0.10,
+      "failure_mode": "off-prompt",
+      "checks": [
+        "honors the style negative_floor (no western-cartoon look, no flat lighting)",
+        "noir palette + rim/low-key lighting present"
+      ]
+    },
+    {
+      "key": "delivery_promise",
+      "label": "镜头兑现叙事承诺 (delivery_promise)",
+      "weight": 0.15,
+      "failure_mode": "off-prompt",
+      "checks": [
+        "the shot delivers the dramatic beat its intent promises, not a generic pose",
+        "final_review: would a human director accept this take as-is"
+      ]
+    }
+  ],
+  "negative_floor": ["lowres", "blurry", "extra fingers", "deformed hands", "watermark", "text artifacts", "western cartoon style", "flat lighting"],
+  "禁止变化项_hook": "compare the generated artifact against ref_role_map images; any 禁止变化项 change => failure_mode=drift, drift=true"
+}

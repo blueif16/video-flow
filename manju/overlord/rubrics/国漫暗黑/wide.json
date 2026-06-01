@@ -1,0 +1,60 @@
+{
+  "style_id": "国漫暗黑",
+  "shot_type": "wide",
+  "景别": "全景",
+  "extends": "default.json",
+  "description": "全景 rubric — establishing shots; scene-layout consistency, composition and motion coherence dominate; per-face drift is weighted down (faces are small) but scene 禁止变化项 are weighted up.",
+  "pass_threshold": 0.70,
+  "axes": [
+    {
+      "key": "scene_drift",
+      "label": "场景一致性 (layout / light direction / palette vs bible)",
+      "weight": 0.30,
+      "failure_mode": "drift",
+      "checks": [
+        "大殿布局 matches the locked scene reference (pillars, throne placement)",
+        "光源方向不可变 — moonlight enters from the same direction",
+        "色调不可变 — cold-blue noir palette preserved"
+      ]
+    },
+    {
+      "key": "composition",
+      "label": "构图 / 景别 (slideshow_risk guard)",
+      "weight": 0.20,
+      "failure_mode": "off-prompt",
+      "checks": [
+        "true 全景 scale — subject reads small in frame, environment dominant",
+        "not a static slideshow frame: the camera move (缓慢推进) is evident across frames"
+      ]
+    },
+    {
+      "key": "motion_coherence",
+      "label": "运动连贯 (video only)",
+      "weight": 0.20,
+      "failure_mode": "motion-incoherent",
+      "checks": [
+        "subject and camera move coherently across the contact-sheet frames",
+        "no teleporting / morphing / flicker between slice-centers"
+      ]
+    },
+    {
+      "key": "anatomy",
+      "label": "轮廓解剖 (silhouette)",
+      "weight": 0.10,
+      "failure_mode": "anatomy",
+      "checks": ["silhouette/limbs read correctly even at distance"]
+    },
+    {
+      "key": "delivery_promise",
+      "label": "建场兑现",
+      "weight": 0.20,
+      "failure_mode": "off-prompt",
+      "checks": [
+        "establishes the dramatic geography the intent promises",
+        "final_review: a human director would accept this establishing take"
+      ]
+    }
+  ],
+  "negative_floor": ["lowres", "blurry", "watermark", "text artifacts", "western cartoon style", "flat lighting", "static slideshow"],
+  "禁止变化项_hook": "compare against the scene reference; any 大殿布局/光源方向/色调 change => failure_mode=drift, drift=true"
+}

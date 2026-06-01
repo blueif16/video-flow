@@ -1,0 +1,57 @@
+{
+  "style_id": "国漫暗黑",
+  "shot_type": "close_up",
+  "景别": "近景",
+  "extends": "default.json",
+  "description": "近景特写 rubric — faces, eyes, hands dominate; drift and anatomy are weighted up because the bible's 固定特征词 (eye color, scar) are fully visible.",
+  "pass_threshold": 0.78,
+  "axes": [
+    {
+      "key": "drift",
+      "label": "面部一致性 (eyes / scar / hair vs bible)",
+      "weight": 0.38,
+      "failure_mode": "drift",
+      "checks": [
+        "银灰色眼睛 exactly matches the locked reference eye color",
+        "左眉伤疤 present, same side and position as the reference",
+        "发型/发色 unchanged"
+      ]
+    },
+    {
+      "key": "anatomy",
+      "label": "面部 / 手部解剖",
+      "weight": 0.22,
+      "failure_mode": "anatomy",
+      "checks": [
+        "facial features symmetric and undistorted at close range",
+        "hand-on-hilt anatomy correct (no extra/fused fingers)"
+      ]
+    },
+    {
+      "key": "emotion_delivery",
+      "label": "情绪兑现 (delivery_promise, close-up)",
+      "weight": 0.22,
+      "failure_mode": "off-prompt",
+      "checks": [
+        "the micro-expression sells the dialogue beat (cold resolve), not a blank stare",
+        "eye-light / catchlight reads the intended emotion"
+      ]
+    },
+    {
+      "key": "artifact",
+      "label": "无伪影 / 乱码",
+      "weight": 0.10,
+      "failure_mode": "artifact",
+      "checks": ["no watermark, no garbled subtitle text burned in"]
+    },
+    {
+      "key": "style_floor",
+      "label": "风格底线",
+      "weight": 0.08,
+      "failure_mode": "off-prompt",
+      "checks": ["noir rim light on the face; honors negative_floor"]
+    }
+  ],
+  "negative_floor": ["lowres", "blurry", "extra fingers", "deformed hands", "watermark", "text artifacts", "western cartoon style", "flat lighting", "wrong eye color"],
+  "禁止变化项_hook": "at 近景 the 固定特征词 are fully visible — any eye-color/scar/hair change => failure_mode=drift, drift=true"
+}
